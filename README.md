@@ -10,11 +10,11 @@ This website provides a series of tutorials and FAQs for statistics, given helpf
 * Simple comparisons
 * Regression
 * Generalized linear models
-* Hierarchical/Multi-level modeling
-* Advanced techniques
 * P-values
 * P-hacking/Researcher degrees of freedom/Replication
 * Bayesian approach
+* Hierarchical/Multi-level modeling
+* Advanced techniques
 
 ### Additional resources
 
