@@ -15,8 +15,9 @@ In this section, I will work through several foundational concepts and terms for
 * **Outcome**: The observed value for a random variable.
 * **Sample space**: The list of all possible outcomes.
 * **Event**: A collection of outcomes, a subset of the sample space. A event can consist of a single outcome, or multiple outcomes. Furthermore, the same outcome can appear in different events.
+* **Experiment**: An opportunity to observe a outcome or event.
 
-Consider the result of rolling a numbered six-sided die. This is a random variable, as the numbered side that ends up facing upward can be any value between 1 to 6, and can change each time you roll the die. The upward-facing number is an outcome, and the values 1 through 6 are the sample space, as this describes all possible outcomes. This sample space can be divided into many different possible events, from singular outcomes (1, 2, 3, etc.), to combinations ( 1 or 2, 1 or 3, 2 or 3, etc.).
+Consider the result of rolling a numbered six-sided die. This is a random variable, as the numbered side that ends up facing upward can be any value between 1 to 6, and can change each time you roll the die. The upward-facing number is an outcome, and the values 1 through 6 are the sample space, as this describes all possible outcomes. This sample space can be divided into many different possible events, from singular outcomes (1, 2, 3, etc.), to combinations ( 1 or 2, 1 or 3, 2 or 3, etc.). The act of rolling the die and observing a which value ends up facing upwards is an experiment.
 
 Random variables can be further categorized as:
 
@@ -39,12 +40,13 @@ To properly describe a random variable, we turn to probability. A straightforwar
 
 1. **Classical** or **analytic** probability.
 
-This type of probability assumes that outcomes are equally probable. We can again use the fair six-sided die as an example of this type of probability. Each outcome has a 1 in 6 chance of occurring. So, letting **X** be the random variable representing the result of rolling the die, we can write the probability of getting a 1 as:
+This type of probability assumes that outcomes are equally probable, and assigns probabilities as the ratio of the number of specified outcomes over the number of outcomes in the sample space. We can again use the fair six-sided die as an example of this type of probability. There are six possible outcomes, so each outcome has a 1 in 6 chance of occurring.
 
-P( **X** = 1 ) = 1/6.
+This type of probability is intuitive and easy to work with, but of course hinges on equally probable outcomes, which does not have to be the case. For example, a dice with some of the corners rounded is not fair - the numbers around the rounded corners are less likely to end up facing upward.
 
-2. **Relative frequency** or **Frequentist** probability.
+2. **Relative frequency** or **frequentist** probability.
 
+This type of probability is based on the number of times a outcome (or event) occurs with repeated (independent) experiments. The classic example of this is flipping a coin repeatedly and seeing how many it lands on heads. For example, you might fip a 
 
 ##### 2.1. Distribution functions
 
