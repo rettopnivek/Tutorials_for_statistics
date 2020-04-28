@@ -35,13 +35,28 @@ which simply means the observed value for the random variable **X** is x.
 
 #### 2. Probability
 
-To properly describe a random variable, we turn to probability. There are several ways to assign probabilities to outcomes, but for now we'll again use the example of a six-sided die.
+To properly describe a random variable, we turn to probability. A straightforward way to think of probability is that it is the ratio of the ratio of the actual number of occurences divided the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
+
+1. **Classical** or **analytic** probability.
+
+This type of probability assumes that outcomes are equally probable. We can again use the fair six-sided die as an example of this type of probability. Each outcome has a 1 in 6 chance of occurring. So, letting **X** be the random variable representing the result of rolling the die, we can write the probability of getting a 1 as:
+
+P( **X** = 1 ) = 1/6.
+
+2. **Relative frequency** or **Frequentist** probability.
+
+
+##### 2.1. Distribution functions
+
+
 
 When mapping probabilities, we start with what is known as the (cumulative) distribution function. This function gives the probability of observing values less than or equal to a specified value, and is written as:
 
 P( **X** &le; x ) or Pr( **X** &le; x ).
 
-Determining these probabilities is easy for a fair six-sided die, as each outcome has a 1 in 6 chance of occuring.
+Determining these probabilities is easy for a fair six-sided die, as each outcome has a 1 in 6 chance of occuring. Hence, the probability of observing a number of 3 or less is
+
+P( **X** &le; 3 ) = 3 / 6.
 
 #### 3. Probability axioms
 
