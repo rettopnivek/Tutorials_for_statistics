@@ -4,13 +4,12 @@ The foundations of statistics is probability. To make inferences about a large g
 
 ### Table of contents
 
-1. Useful concepts, terms, and notation
-2. Probability axioms
-4. Rules
-
-#### 1. Useful concepts, terms, and notation
+1. Random variables and outcomes
+2. Probability
 
 In this section, I will work through several foundational concepts and terms for probability, and detail the notation typically used to represent them.
+
+#### 1. Random variables and outcomes
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -32,11 +31,17 @@ The typical notation for a random variable is a boldface capital letter, like **
 
 **X** = x,
 
-which means the observed value for the random variable **X** is x.
+which simply means the observed value for the random variable **X** is x.
 
-#### 2. Notation
+#### 2. Probability
 
-P( X = x )
+To properly describe a random variable, we turn to probability. There are several ways to assign probabilities to outcomes, but for now we'll again use the example of a six-sided die.
+
+When mapping probabilities, we start with what is known as the (cumulative) distribution function. This function gives the probability of observing values less than or equal to a specified value, and is written as:
+
+P( **X** &le x ) or Pr( **X** &le x ).
+
+Determining these probabilities is easy for a fair six-sided die, as each outcome has a 1 in 6 chance of occuring.
 
 #### 3. Probability axioms
 
