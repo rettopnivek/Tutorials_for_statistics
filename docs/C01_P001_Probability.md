@@ -39,7 +39,7 @@ To properly describe a random variable, we turn to probability. There are severa
 
 When mapping probabilities, we start with what is known as the (cumulative) distribution function. This function gives the probability of observing values less than or equal to a specified value, and is written as:
 
-P( **X** &le x ) or Pr( **X** &le x ).
+P( **X** &le; x ) or Pr( **X** &le; x ).
 
 Determining these probabilities is easy for a fair six-sided die, as each outcome has a 1 in 6 chance of occuring.
 
