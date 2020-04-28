@@ -1,5 +1,5 @@
 <p align="center">
-  Kevin Potter (updated 2020/03/09)
+  Kevin Potter (updated 2020/04/28)
 </p>
 
 This website provides a series of tutorials and FAQs for statistics, given helpful detail, examples, and reminders for the applied researchers. Examples will focus on psychology research and use (primarily) the freely available [statistical software R](https://www.r-project.org/) (for details on using R, see this website for tutorials and further links). Both Frequentist and Bayesian approaches will be covered (though note the author is biased toward the Bayesian approach). Examples will be geared towards quick implementation and practical tools, rather than an in-depth coverage on theory.
@@ -7,13 +7,13 @@ This website provides a series of tutorials and FAQs for statistics, given helpf
 ### Sections
 
 * Foundations
+* P-values
+* Bayesian approach
 * Simple comparisons
 * Regression
 * Generalized linear models
-* P-values
-* P-hacking/Researcher degrees of freedom/Replication
-* Bayesian approach
 * Hierarchical/Multi-level modeling
+* P-hacking/Researcher degrees of freedom/Replication
 * Advanced techniques
 
 ### Additional resources
