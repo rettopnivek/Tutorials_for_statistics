@@ -46,11 +46,17 @@ This type of probability is intuitive and easy to work with, but of course hinge
 
 2. **Relative frequency** or **frequentist** probability.
 
-This type of probability is based on the number of times a outcome (or event) occurs with repeated (independent) experiments. The classic example of this is flipping a coin repeatedly and seeing how many it lands on heads. For example, you might fip a 
+This type of probability is based on the number of times a outcome (or event) occurs with repeated (independent) experiments. The classic example of this is flipping a coin repeatedly and seeing how many it lands on heads. Frequentist probability considers the long-run average ovr a theoritical infinite number of repetitions, or in other words, focusing on asymptotic behavior.
 
-##### 2.1. Distribution functions
+This type of probability is most useful for cases with clear repetition (e.g., coin flipping, assembly lines, etc.), but can be difficult if not impossible to apply for one-time events.
 
+3. **Subjective** or **evidential** probability.
 
+Forthcoming.
+
+Forthcoming.
+
+#### 2. Distribution and density functions
 
 When mapping probabilities, we start with what is known as the (cumulative) distribution function. This function gives the probability of observing values less than or equal to a specified value, and is written as:
 
