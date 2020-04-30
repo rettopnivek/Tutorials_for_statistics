@@ -38,25 +38,34 @@ which simply means the observed value for the random variable **X** is x.
 
 To properly describe a random variable, we turn to probability. A straightforward way to think of probability is that it is the ratio of the ratio of the actual number of occurences divided the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
-1. **Classical** or **analytic** probability.
+1. **Classical** probability.
 
 This type of probability assumes that outcomes are equally probable, and assigns probabilities as the ratio of the number of specified outcomes over the number of outcomes in the sample space. We can again use the fair six-sided die as an example of this type of probability. There are six possible outcomes, so each outcome has a 1 in 6 chance of occurring.
 
 This type of probability is intuitive and easy to work with, but of course hinges on equally probable outcomes, which does not have to be the case. For example, a dice with some of the corners rounded is not fair - the numbers around the rounded corners are less likely to end up facing upward.
 
-2. **Relative frequency** or **frequentist** probability.
+2. **Frequentist** or **empirical** probability.
 
-This type of probability is based on the number of times a outcome (or event) occurs with repeated (independent) experiments. The classic example of this is flipping a coin repeatedly and seeing how many it lands on heads. Frequentist probability considers the long-run average ovr a theoritical infinite number of repetitions, or in other words, focusing on asymptotic behavior.
+This type of probability is based on the number of times a outcome (or event) occurs with repeated (independent) experiments. The classic example for this type of probability is flipping a coin. If you want to know the probability that a coin will come up heads when flipped, you can flip the coin repeatedly and count the number times it comes up heads, divided by the number of times you flipped the coin. This will give you an estimate of the probability of the coin coming up heads.
 
-This type of probability is most useful for cases with clear repetition (e.g., coin flipping, assembly lines, etc.), but can be difficult if not impossible to apply for one-time events.
+Frequentist probability has been a mainstay of statistics for a long time. There are nuances to how it is used though, that can be non-intuitive.
+
+* Frequentist probability is built around *asymptotic behavior*. Consider the coin flip. The more you flip the coin, the better your estimate of the probability that it will come up heads will be, and if you fipped this coin an infinite number of times, then you would obtain the actual probability. The nuance here is that the probability is based on a thought experiment, as we could never actually flip the coin an infinite number of times.
+* Frequentist probability is only valid for a *repeatable* event. Flipping a coin is clearly something that can be easily repeated. However, other types of events once again often require thought experiments. Conducting a complicated scientific study is typically difficult to replicate many times, if not run even once. So again, cases here require one to instead imagine outcomes were it possible to repeat the experiment. However, some events are not repeatable. For instance, if a doctor wants to know the probability that their current patient has a specific illness, this type of event is too specific for frequentist probability.
 
 3. **Subjective** or **evidential** probability.
 
-Forthcoming.
+This type of probability gives the measure of an individual person's belief that an event will happen. In other words, a person can assign values to whether events will occur (e.g., I there's a 80% chance it will rain tomorrow), and as long as they might the requiremet for the three axioms of probability, you have a valid subjective probablity.
 
-Forthcoming.
+This type of probability is part of the basis for Bayesian statistics, which has gain popularity in recent years. However, the fact that different individuals can assign different probabilities to events unnerves many people. Furthermore, it can be hard to convert an individual's beliefs into valid probabilities.
 
-#### 2. Distribution and density functions
+*Note: These types of probabilities overlap - they are not mutually exclusive!*
+
+#### 3. Axioms for probability
+
+
+
+#### 4. Distribution and density functions
 
 When mapping probabilities, we start with what is known as the (cumulative) distribution function. This function gives the probability of observing values less than or equal to a specified value, and is written as:
 
