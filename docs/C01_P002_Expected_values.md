@@ -62,8 +62,24 @@ Hence, the expected value for **X** is:
 
 ![E\[X\] = .25 (2)^2 - .25 (0)^2 = 1](https://render.githubusercontent.com/render/math?math=E%5BX%5D%20%3D%20.25%20(2)%5E2%20-%20.25%20(0)%5E2%20%3D%201).
 
+B) We can also use R's built-in function for unidimensional numerical integration to solve this problem:
+
+```r
+# Define function that computes x * f(x)
+x_fx <- function( x ) x * dunif( x, 0, 2 )
+# Use R's built-in numerical integration function
+E_x <- integrate( x_fx, lower = 0, upper = 2 )
+```
+
 #### 2. Properties
 
+If you multiply a random variable **X** by a scalar *a*, then:
+
+E[ *a* **X** ] = *a* E[ **X** ].
+
+If you have a set of random variables, **X**<sub>1</sub>, **X**<sub>2</sub>, ..., **X**<sub>K</sub>, then:
+
+![E\[ \sum_{i=1}^K X_i \] = \sum_{i=1}^K E\[X_i\]](https://render.githubusercontent.com/render/math?math=E%5B%20%5Csum_%7Bi%3D1%7D%5EK%20X_i%20%5D%20%3D%20%5Csum_%7Bi%3D1%7D%5EK%20E%5BX_i%5D).
 
 #### 3. Relation to the sample mean
 
