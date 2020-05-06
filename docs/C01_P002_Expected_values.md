@@ -9,9 +9,19 @@ Introduction
 
 ##### 1.1. Discrete random variables
 
-Let **X** be a discrete random variable that can take on a finite set of values, *x*<sub>1</sub>, *x*<sub>2</sub>, ..., *x*<sub>k</sub>, and has the probability mass function *p(x)*. Then the expected value for X is defined as:
+Let **X** be a discrete random variable with a set of possible values *D* and a probability mass function *p(x)*. Then the expected value for **X** is:
 
-![\sum_{i = 1}^{k} x_i \cdot p(x_i)](https://render.githubusercontent.com/render/math?math=%5Csum_%7Bi%20%3D%201%7D%5E%7Bk%7D%20x_i%20%5Ccdot%20p(x_i)).
+![E\[X\] = \sum_{x \in D} x \cdot p(x)](https://render.githubusercontent.com/render/math?math=E%5BX%5D%20%3D%20%5Csum_%7Bx%20%5Cin%20D%7D%20x%20%5Ccdot%20p(x)).
+
+**Examples**:
+
+Consider a fair six-sided die. The probability mass function is simply *p(x)* = 1/6. We can then write the expected value as:
+
+*E*[ **X** ] = 1 &middot; 1/6 + 2 &middot; 1/6 + 3 &middot; 1/6 + 4 &middot; 1/6 + 5 &middot; 1/6 + 6 &middot; 1/6.
+
+Hence, the expected value for the die is 3.5.
+
+*Note: The equation given above handles both finite cases and countably infinite cases.*
 
 ##### 1.2. Continuous random variable
 
