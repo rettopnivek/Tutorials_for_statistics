@@ -6,6 +6,8 @@ A core foundations of statistics is probability. To make inferences about a larg
 
 1. Random variables and outcomes
 2. Probability
+3. Axioms for probability
+
 
 In this section, I will work through several foundational concepts and terms for probability, and detail the notation typically used to represent them.
 
@@ -38,13 +40,13 @@ which simply means the observed value for the random variable **X** is x.
 
 #### 2. Probability
 
-To properly describe a random variable, we turn to probability. A straightforward way to think of probability is that it is the ratio of the ratio of the actual number of occurences divided the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
+To properly describe a random variable, we turn to probability. A straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
 1. **Classical** probability.
 
 This type of probability assumes that outcomes are equally probable, and assigns probabilities as the ratio of the number of specified outcomes over the number of outcomes in the sample space. We can again use the fair six-sided die as an example of this type of probability. There are six possible outcomes, so each outcome has a 1 in 6 chance of occurring.
 
-This type of probability is intuitive and easy to work with, but of course hinges on equally probable outcomes, which does not have to be the case. For example, a dice with some of the corners rounded is not fair - the numbers around the rounded corners are less likely to end up facing upward.
+This type of probability is intuitive and easy to work with, but of course hinges on equally probable outcomes, which does not have to be the case. For example, a dice with some of the corners rounded is not fair - the rounded corners make it harder for some numbers to end up facing upward.
 
 2. **Frequentist** or **empirical** probability.
 
@@ -53,11 +55,11 @@ This type of probability is based on the number of times a outcome (or event) oc
 Frequentist probability has been a mainstay of statistics for a long time. There are nuances to how it is used though, that can be non-intuitive.
 
 * Frequentist probability is built around *asymptotic behavior*. Consider the coin flip. The more you flip the coin, the better your estimate of the probability that it will come up heads will be, and if you fipped this coin an infinite number of times, then you would obtain the actual probability. The nuance here is that the probability is based on a thought experiment, as we could never actually flip the coin an infinite number of times.
-* Frequentist probability is only valid for a *repeatable* event. Flipping a coin is clearly something that can be easily repeated. However, other types of events once again often require thought experiments. Conducting a complicated scientific study is typically difficult to replicate many times, if not run even once. So again, cases here require one to instead imagine outcomes were it possible to repeat the experiment. However, some events are not repeatable. For instance, if a doctor wants to know the probability that their current patient has a specific illness, this type of event is too specific for frequentist probability.
+* Frequentist probability is only valid for a *repeatable* event. Flipping a coin is clearly something that can be easily repeated. However, other types of events once again often require thought experiments. Conducting a complicated scientific study is typically difficult to replicate many times. So again, one must instead *imagine* the possible outcomes that could result from repeating the study many times, rather than actually repeating the study. However, some events are not repeatable. For instance, if a doctor wants to know the probability that their current patient has a specific illness, this type of event is too specific for frequentist probability.
 
 3. **Subjective** or **evidential** probability.
 
-This type of probability gives the measure of an individual person's belief that an event will happen. In other words, a person can assign values to whether events will occur (e.g., I there's a 80% chance it will rain tomorrow), and as long as they might the requiremet for the three axioms of probability, you have a valid subjective probablity.
+This type of probability gives the measure of an individual person's belief that an event will happen. In other words, a person can assign values to whether events will occur (e.g., I there's a 80% chance it will rain tomorrow), and as long as they meet the requiremets based on the three axioms of probability, you have a valid subjective probablity.
 
 This type of probability is part of the basis for Bayesian statistics, which has gain popularity in recent years. However, the fact that different individuals can assign different probabilities to events unnerves many people. Furthermore, it can be hard to convert an individual's beliefs into valid probabilities.
 
@@ -65,6 +67,8 @@ This type of probability is part of the basis for Bayesian statistics, which has
 
 #### 3. Axioms for probability
 
+* Axiom 1: The probability that at least one outcome in the sample space &Omega; will occur is 1; P(&Omega;) = 1.
+* Axiom 2: The probability of an event A is greater than or equal to 0; P(A) &ge 0.
 
 
 #### 4. Distribution and density functions
@@ -76,17 +80,6 @@ P( **X** &le; x ) or Pr( **X** &le; x ).
 Determining these probabilities is easy for a fair six-sided die, as each outcome has a 1 in 6 chance of occuring. Hence, the probability of observing a number of 3 or less is
 
 P( **X** &le; 3 ) = 3 / 6.
-
-#### 3. Probability axioms
-
-1. The probability of an event is a non-negative real number.
-2. The probability that at least one event in the sample space will occur is 1.
-3. 
-
-A probability must be
-between 0
-
-#### 4. Rules
 
 
 
