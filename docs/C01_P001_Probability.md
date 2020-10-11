@@ -17,7 +17,7 @@ A core foundations of statistics is probability. To make inferences about a larg
 #### 1. Random variables and outcomes
 
 <a name="S01_P01"></a>
-##### i. Basic definitions
+#### i. Basic definitions
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -30,7 +30,7 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
 
 <a name="S01_P02"></a>
-##### ii. Notation from set theory
+#### ii. Notation from set theory
 
 When discussing sample spaces, outcomes, and events, one turns to **set theory**. The logic and language of set theory can get complicated quickly, but it is worth remembering some key notation.
 
@@ -43,7 +43,7 @@ When discussing sample spaces, outcomes, and events, one turns to **set theory**
 * We can use &empty; to refer to the **empty set** (i.e., no elements or outcomes).
 
 <a name="S01_P03"></a>
-##### iii. Types of random variables
+#### iii. Types of random variables
 
 Random variables can be further categorized as:
 
