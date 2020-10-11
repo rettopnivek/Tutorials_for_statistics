@@ -6,7 +6,7 @@ This website provides a series of tutorials and FAQs for statistics, giving help
 
 ### Sections
 
-* Foundations
+* [Foundations](docs/C01_P000_Foundations.md)
 * P-values
 * Bayesian approach
 * Simple comparisons
