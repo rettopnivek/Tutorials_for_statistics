@@ -68,8 +68,8 @@ This type of probability is part of the basis for Bayesian statistics, which has
 #### 3. Axioms for probability
 
 * Axiom 1: The probability that at least one outcome in the sample space &Omega; will occur is 1; P(&Omega;) = 1.
-* Axiom 2: The probability of an event A is greater than or equal to 0; P(A) &ge 0.
-
+* Axiom 2: The probability of an event A is greater than or equal to 0; P(A) &ge; 0.
+* Axiom 3: For a set of disjoint events (i.e., the outcomes in event A<sub>i</sub> do not overlap with the outcomes in event A<sub>j</sub>), the probability of observing at least one of the events in the set is the sum of the probabilities for each individual event. 
 
 #### 4. Distribution and density functions
 
