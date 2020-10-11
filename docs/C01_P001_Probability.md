@@ -17,7 +17,7 @@ A core foundations of statistics is probability. To make inferences about a larg
 #### 1. Random variables and outcomes
 
 <a name="S01_P01"></a>
-##### 1.1 Basic definitions
+##### i. Basic definitions
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -30,7 +30,7 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
 
 <a name="S01_P02"></a>
-##### 1.2 Notation from set theory
+##### ii. Notation from set theory
 
 When discussing sample spaces, outcomes, and events, one turns to **set theory**. The logic and language of set theory can get complicated quickly, but it is worth remembering some key notation.
 
@@ -43,7 +43,7 @@ When discussing sample spaces, outcomes, and events, one turns to **set theory**
 * We can use &empty; to refer to the **empty set** (i.e., no elements or outcomes).
 
 <a name="S01_P03"></a>
-##### 1.3 Types of random variables
+##### iii. Types of random variables
 
 Random variables can be further categorized as:
 
@@ -66,7 +66,7 @@ which simply means the observed value for the random variable **X** is x.
 #### 2. Probability
 
 <a name="S02_P01"></a>
-#### 2.1. Probability axioms
+#### i. Probability axioms
 
 To properly describe a random variable, we turn to probability. Probability is a special type of function, assigning numbers to outcomes and events in a sample space that satisfy a set of rules, known as the **probability axioms**.
 
@@ -81,7 +81,7 @@ We can call the output of the function P(E<sub>i</sub>) a probability if:
 3. The likelihood that at least one event will occur out of a set of two mutually exclusive events equals the sum of the likelihoods for each of the individual events; Given E<sub>i</sub> &notin; E<sub>j</sub>, P(E<sub>i</sub> %cup; E<sub>j</sub>) = P(E<sub>i</sub>) + P(E<sub>j</sub>)
 
 <a name="S02_P02"></a>
-#### 2.2. Types of probability
+#### ii. Types of probability
 
 While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(A) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
