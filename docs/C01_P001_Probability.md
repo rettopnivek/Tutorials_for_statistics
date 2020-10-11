@@ -1,20 +1,23 @@
 ## Probability
 
-<a name="top"></a>
-
 A core foundations of statistics is probability. To make inferences about a large group based on a smaller sample, or to predict future events, or to weigh how much the evidence from messy data supports a theory, we rely on probability. This sections provides a brief summary of concepts, notation, and rules that form an important foundation for statistical testing.
 
+<a name="TOC"></a>
 ### Table of contents
 
-1. <a href="#S01_P01">Random variables and outcomes</a>
-2. <a href="#S02_P01">Random variables and outcomes</a>
-3. Axioms for probability
+1. <a href="#S01">Random variables and outcomes</a>
+    1. <a href="#S01_P01">Basic definitions</a>
+    2. <a href="#S01_P02">Notation from set theory</a>
+    3. <a href="#S01_P03">Types of random variables</a>
+2. <a href="#S02_P01">Probability</a>
+    1. <a href="#S02_P01">Probability axioms</a>
+    2. <a href="#S02_P01">Types of probability</a>
 
-In this section, I will work through several foundational concepts and terms for probability, and detail the notation typically used to represent them.
-
+<a name="S01"></a>
 #### 1. Random variables and outcomes
 
 <a name="S01_P01"></a>
+##### 1.1 Basic definitions
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -25,6 +28,22 @@ In this section, I will work through several foundational concepts and terms for
 Consider the result of rolling a numbered six-sided die. This is a random variable, as the numbered side that ends up facing upward can be any value between 1 to 6, and can change each time you roll the die. The upward-facing number is an outcome, and the values 1 through 6 are the sample space, as this describes all possible outcomes. This sample space can be divided into many different possible events, from singular outcomes (1, 2, 3, etc.), to combinations ( 1 or 2, 1 or 3, 2 or 3, etc.). The act of rolling the die and observing a which value ends up facing upwards is an experiment.
 
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
+
+<a name="S01_P02"></a>
+##### 1.2 Notation from set theory
+
+When discussing sample spaces, outcomes, and events, one turns to **set theory**. The logic and language of set theory can get complicated quickly, but it is worth remembering some key notation.
+
+* If all elements of an event **A** are included in a different event **B**, we can represent this as A &isin; B (A is an **element** of B).
+    * Consider the sample space &Omega; = {1,2,3,4} and the events A = {1,2} and B = {1,2,3}. Then A &isin; &Omega;, B &isin; &Omega;, and A &isin; B.
+* If we want to consider the set of elements that are either 1) in event A, 2) in event B, or 3) in both A and B, we can represent this set of elements as A &cup; B (The **union** of A and B).
+    * For the events A = {1,3,5}, B = {1.2,3}, A &cup; B then refers to the elements 1, 2, 3, and 5.
+* If we want to consider only the elements that are part of both event A and event B, we can represent this as A &cap; B (the **intersection** of A and B).
+    * For the events A = {1,3,5}, B = {1.2,3}, A &cap; B then refers to only the elements 1, and 3.
+* We can use &empty; to refer to the **empty set** (i.e., no elements or outcomes).
+
+<a name="S01_P03"></a>
+##### 1.3 Types of random variables
 
 Random variables can be further categorized as:
 
@@ -41,11 +60,30 @@ The typical notation for a random variable is a boldface capital letter, like **
 
 which simply means the observed value for the random variable **X** is x.
 
+<a href="#TOC">Back to table of contents</a>
+
+<a name="S02"></a>
 #### 2. Probability
 
 <a name="S02_P01"></a>
+#### 2.1. Probability axioms
 
-To properly describe a random variable, we turn to probability. A straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
+To properly describe a random variable, we turn to probability. Probability is a special type of function, assigning numbers to outcomes and events in a sample space that satisfy a set of rules, known as the **probability axioms**.
+
+Suppose we have:
+* A sample space &Omega; (with N finite elements or countably infinite elements).
+* An event E<sub>i</sub>, a subset of &Omega;.
+
+We can call the output of the function P(E<sub>i</sub>) a probability if:
+
+1. The value for P(E<sub>i</sub>) lies between 0 and 1; 0 &geq; P(E<sub>i</sub>) &leq; 1.
+2. The likelihood of at least one of the outcomes in the sample space occuring is 1; P(%Omega;) = 1.
+3. The likelihood that at least one event will occur out of a set of two mutually exclusive events equals the sum of the likelihoods for each of the individual events; Given E<sub>i</sub> &notin; E<sub>j</sub>, P(E<sub>i</sub> %cup; E<sub>j</sub>) = P(E<sub>i</sub>) + P(E<sub>j</sub>)
+
+<a name="S02_P02"></a>
+#### 2.2. Types of probability
+
+While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(A) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
 1. **Classical** probability.
 
@@ -70,23 +108,7 @@ This type of probability is part of the basis for Bayesian statistics, which has
 
 *Note: These types of probabilities overlap - they are not mutually exclusive!*
 
-#### 3. Axioms for probability
-
-* Axiom 1: The probability that at least one outcome in the sample space &Omega; will occur is 1; P(&Omega;) = 1.
-* Axiom 2: The probability of an event A is greater than or equal to 0; P(A) &ge; 0.
-* Axiom 3: For a set of disjoint events (i.e., the outcomes in event A<sub>i</sub> do not overlap with the outcomes in event A<sub>j</sub>), the probability of observing at least one of the events in the set is the sum of the probabilities for each individual event. 
-
-#### 4. Distribution and density functions
-
-When mapping probabilities, we start with what is known as the (cumulative) distribution function. This function gives the probability of observing values less than or equal to a specified value, and is written as:
-
-P( **X** &le; x ) or Pr( **X** &le; x ).
-
-Determining these probabilities is easy for a fair six-sided die, as each outcome has a 1 in 6 chance of occuring. Hence, the probability of observing a number of 3 or less is
-
-P( **X** &le; 3 ) = 3 / 6.
-
-
+<a href="#TOC">Back to table of contents</a>
 
 ```R
 # Example R code
