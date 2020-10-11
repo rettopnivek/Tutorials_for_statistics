@@ -1,17 +1,20 @@
 ## Probability
 
+<a name="top"></a>
+
 A core foundations of statistics is probability. To make inferences about a large group based on a smaller sample, or to predict future events, or to weigh how much the evidence from messy data supports a theory, we rely on probability. This sections provides a brief summary of concepts, notation, and rules that form an important foundation for statistical testing.
 
 ### Table of contents
 
-1. Random variables and outcomes
-2. Probability
+1. <a href="#S01_P01">Random variables and outcomes</a>
+2. <a href="#S02_P01">Random variables and outcomes</a>
 3. Axioms for probability
-
 
 In this section, I will work through several foundational concepts and terms for probability, and detail the notation typically used to represent them.
 
 #### 1. Random variables and outcomes
+
+<a name="S01_P01"></a>
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -39,6 +42,8 @@ The typical notation for a random variable is a boldface capital letter, like **
 which simply means the observed value for the random variable **X** is x.
 
 #### 2. Probability
+
+<a name="S02_P01"></a>
 
 To properly describe a random variable, we turn to probability. A straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
