@@ -77,7 +77,7 @@ Suppose we have:
 We can call the output of the function P(E<sub>i</sub>) a probability if:
 
 1. The value for P(E<sub>i</sub>) lies between 0 and 1; 0 &geq; P(E<sub>i</sub>) &leq; 1.
-2. The likelihood of at least one of the outcomes in the sample space occuring is 1; P(%Omega;) = 1.
+2. The likelihood of at least one of the outcomes in the sample space occuring is 1; P(&Omega;) = 1.
 3. The likelihood that at least one event will occur out of a set of two mutually exclusive events equals the sum of the likelihoods for each of the individual events; Given E<sub>i</sub> &notin; E<sub>j</sub>, P(E<sub>i</sub> %cup; E<sub>j</sub>) = P(E<sub>i</sub>) + P(E<sub>j</sub>)
 
 <a name="S02_P02"></a>
