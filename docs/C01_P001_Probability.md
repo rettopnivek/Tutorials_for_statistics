@@ -17,9 +17,9 @@ In this section, I will work through several foundational concepts and terms for
 * **Event**: A collection of outcomes, a subset of the sample space. A event can consist of a single outcome, or multiple outcomes. Furthermore, the same outcome can appear in different events.
 * **Experiment**: An opportunity to observe a outcome or event.
 
-![Figure 1.1: Example of a random variable - rolling a single dice.](C01_P001_I001.png)
-
 Consider the result of rolling a numbered six-sided die. This is a random variable, as the numbered side that ends up facing upward can be any value between 1 to 6, and can change each time you roll the die. The upward-facing number is an outcome, and the values 1 through 6 are the sample space, as this describes all possible outcomes. This sample space can be divided into many different possible events, from singular outcomes (1, 2, 3, etc.), to combinations ( 1 or 2, 1 or 3, 2 or 3, etc.). The act of rolling the die and observing a which value ends up facing upwards is an experiment.
+
+![Figure 1.1](C01_P001_I001.png){:height="70%" width="70%"}
 
 Random variables can be further categorized as:
 
