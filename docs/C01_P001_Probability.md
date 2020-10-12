@@ -18,7 +18,7 @@ A core foundation of statistics is probability. To make inferences about a large
 #### 1. Random variables and outcomes
 
 <a name="S01_P01"></a>
-#### i. Basic definitions
+#### 1.1. Basic definitions
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -33,7 +33,7 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 <a href="#TOC">Table of contents</a>
 
 <a name="S01_P02"></a>
-#### ii. Notation from set theory
+#### 1.2. Notation from set theory
 
 When discussing sample spaces, outcomes, and events, one turns to **set theory**. The logic and language of set theory can get complicated quickly, but it is worth remembering some key notation.
 
@@ -52,7 +52,7 @@ When discussing sample spaces, outcomes, and events, one turns to **set theory**
 <a href="#TOC">Table of contents</a>
 
 <a name="S01_P03"></a>
-#### iii. Types of random variables
+#### 1.3. Types of random variables
 
 Random variables can be further categorized as:
 
@@ -69,7 +69,7 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 #### 2. Probability
 
 <a name="S02_P01"></a>
-#### i. Probability axioms
+#### 2.1. Probability axioms
 
 To properly describe a random variable, we turn to probability. Probability is a special type of function, assigning numbers to outcomes and events in a sample space that satisfy a set of rules, known as the **probability axioms**. We can call the output of the function P(X) a probability if:
 
@@ -78,7 +78,7 @@ To properly describe a random variable, we turn to probability. Probability is a
 3. If events X and Y are mutually exclusive (outcomes in X do not overlap with outcomes in Y), then the likelihood that either X or Y will occur equals the sum of the individual likelihoods for X and Y; Given X &notin; Y, P(X %cup; Y) = P(X) + P(Y).
 
 <a name="S02_P02"></a>
-#### ii. Notation with random variables
+#### 2.2. Notation with random variables
 
 The typical notation for a random variable is a boldface capital letter, like **X** or **Y**. A distinction is made between a random variable and its observed value, the latter of which is represented by standard lower-case letters like x or y. So we can write:
 
@@ -97,7 +97,7 @@ which denotes the probability that a random variable will be less than or equal 
 <a href="#TOC">Table of contents</a>
 
 <a name="S02_P03"></a>
-#### iii. Types of probability
+#### 2.3. Types of probability
 
 While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(**X** = x) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
