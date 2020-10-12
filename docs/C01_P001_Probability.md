@@ -1,28 +1,20 @@
-## Probability
+## Probability (Concepts)
 
-A core foundation of statistics is probability. To make inferences about a large group based on a smaller sample, or to predict future events, or to weigh how much the evidence from messy data supports a theory, we rely on probability. This sections provides a brief summary of concepts, notation, and rules that form an important foundation for statistical testing.
+A core foundation of statistics is probability. To make inferences about a large group based on a smaller sample, or to predict future events, or to weigh how much the evidence from messy data supports a theory, we rely on probability. This section introduces key concepts from probability: 1) the idea of random variables, 2) relevant details and notation from set theory, 3) the probability axioms.
 
 <a name="TOC"></a>
 ### Table of contents
 
-1. <a href="#S01">Random variables and outcomes</a>
-    1. <a href="#S01_P01">Basic definitions</a>
-    2. <a href="#S01_P02">Notation from set theory</a>
-    3. <a href="#S01_P03">Types of random variables</a>
-2. <a href="#S02_P01">Probability</a>
-    1. <a href="#S02_P01">Probability axioms</a>
-    2. <a href="#S02_P02">Notation with random variables</a>
-    3. <a href="#S02_P03">Types of probability</a>
+1. <a href="#S01">Random variables</a>
+2. <a href="#S02">Types of random variables</a>
+3. <a href="#S03">Set theory</a>
 
 <a name="S01"></a>
-#### 1. Random variables and outcomes
-
-<a name="S01_P01"></a>
-#### 1.1. Basic definitions
+#### 1. Random variables
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
-* **Sample space**: The list of all possible outcomes.
+* **Sample space**: The list of all possible outcomes (can also be called the population).
 * **Event**: A collection of outcomes, a subset of the sample space. A event can consist of a single outcome, or multiple outcomes. Furthermore, the same outcome can appear in different events.
 * **Experiment**: An opportunity to observe a outcome or event.
 
@@ -32,36 +24,8 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 
 <a href="#TOC">Table of contents</a>
 
-<a name="S01_P02"></a>
-#### 1.2. Notation from set theory
-
-When discussing sample spaces, outcomes, and events, one turns to **set theory**. The logic and language of set theory can get complicated quickly, but it is worth remembering some key notation.
-
-* When **A is an element of B**:
-    * Notation - A &isin; B.
-    * If all elements of a set A are included in a different set B.
-* When **A is not an element of B**:
-    * Notation - A &notin; B.
-    * If no elements of a set A are included in a different set B.
-* **Empty set**:
-    * Notation - &empty;.
-    * The unique set consisting of no elements, of size 0.
-* The **union of A and B**:
-    * Notation - A &cup; B.
-    * The elements that are either in set A, set B, or in both sets.
-* The **intersection of A and B**:
-    * Notation - A &cap; B.
-    * The elements that are only in both set A and set B.
-* When **A and B are mutually exclusive**:
-    * Notation - A &cap; B = &empty;.
-    * When no elements in set A nor set B are contained in the other set.
-
-<img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
-
-<a href="#TOC">Table of contents</a>
-
-<a name="S01_P03"></a>
-#### 1.3. Types of random variables
+<a name="S02"></a>
+#### 2. Types of random variables
 
 Random variables can be further categorized as:
 
@@ -74,20 +38,48 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 
 <a href="#TOC">Table of contents</a>
 
-<a name="S02"></a>
-#### 2. Probability
+<a name="S03"></a>
+#### 3. Set theory
 
-<a name="S02_P01"></a>
-#### 2.1. Probability axioms
+Set theory provides several fundamental tools that can be used to describe random variables and is a core foundation for the theory of probability. Set theory provides a formal mathematical way of describing collections of elements. Some basic definitions and notation include...
 
-To properly describe a random variable, we turn to probability. Probability is a special type of function, assigning numbers to outcomes and events in a sample space that satisfy a set of rules, known as the **probability axioms**. We can call the output of the function P(X) a probability if:
+* **Set**: A collection of objects (called **elements** or **members**) regarded as a single object.
+* **&isin;**: Indicates that an object is an element or member of a set. So A &isin; B indicates that object A is an element/member in the set B.
+* **&notin;**: Indicates that an object is not an element or member of a set. So C &notin; B indicates that object C is not an element/member in the set B.
+* **&sub;**: Indicates when a set is a *subset* of another set. So A &sub; B indicates that all elements/members in set A are also contained in set B.
 
-1. The value for P(X) lies between 0 and 1; 0 &#x2265; P(X) &#x2264; 1.
+Two key operators for identifying elements/members based on whether they are/are not contained across sets are...
+
+* **&cup;**: Union; A &cup; B refers to the set of elements/members in either set A or B, irrespective of overlap.
+* **&cap;**: Intersection; A &cap; B refers to only the set of elements/members contained in both set A and B.
+
+There are several special types of sets, most notably the **empty set**, or **&empty;**, a set with no elements or members.
+
+Using the concepts of intersection and the empty set, we can specify **mutually exclusive** or **disjoint** sets:
+
+A &cap; B = &empty;,
+
+indicates that the sets A and B are mutually exclusive or disjoint, as they contain no overlapping elements/members.
+
+<img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
+
+<a href="#TOC">Table of contents</a>
+
+#### 3. Probability
+
+With the concepts and notations of set theory, we can then formalize a definition of probability. The **sample space** for a random variable is a *set*, specifically an *exhausitive* and *mutually exclusive* list of all possible outcomes. **Events** are then *subsets* of the sample space. **Probability** then is the act of *assigning numbers to these events*. More specifically, probability is the output of a function that takes a set as input; if the output safisfies a set of rules, then it is a probability. 
+
+We can call the output of a function P(X) acting upon a set X a probability if... 
+
+1. The value for P(X) is greater than or equal to zero; P(X) &#x2265; 0.
 2. The likelihood that at least one of the outcomes in the sample space &Omega; (of which the event X is a subset) will occur equals 1; P(&Omega;) = 1.
-3. If events X and Y are mutually exclusive (outcomes in X do not overlap with outcomes in Y), then the likelihood that either X or Y will occur equals the sum of the individual likelihoods for X and Y; Given X &notin; Y, P(X &cup; Y) = P(X) + P(Y).
+3: If events X and Y are mutually exclusive (outcomes in X do not overlap with outcomes in Y), then the likelihood that either X or Y will occur equals the sum of the individual likelihoods for X and Y; Given X &cap; Y = &empty;, P(X &cup; Y) = P(X) + P(Y).
+
+A more restrictive variant of the third rule is if \{ X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> \} partitions the set X, then P(X) = P(X<sub>1</sub>) + P(X<sub>2</sub>) + ... + P(X<sub>n</sub>).
 
 <a name="S02_P02"></a>
-#### 2.2. Notation with random variables
+
+### 4. Notation
 
 The typical notation for a random variable is a capital letter, like X or Y. A distinction is made between a random variable and its observed value, the latter of which is represented by lower-case letters like x or y. So we can write:
 
@@ -105,8 +97,7 @@ which denotes the probability that a random variable will be less than or equal 
 
 <a href="#TOC">Table of contents</a>
 
-<a name="S02_P03"></a>
-#### 2.3. Types of probability
+#### 5. Types of probability
 
 While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(X = x) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
