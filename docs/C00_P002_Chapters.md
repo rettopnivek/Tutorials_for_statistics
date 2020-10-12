@@ -1,6 +1,6 @@
 ## Sections
 
-* Foundations
+* [Foundations](docs/C01_P000_Foundations.md)
 * Simple comparisons
 * Regression
 * Generalized linear models
