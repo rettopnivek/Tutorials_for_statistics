@@ -4,8 +4,8 @@ Introduction
 
 ### Table of contents
 1. Definition
-    1.1. Discrete random variables
-    1.2. Continuous random variables
+    1. Discrete random variables
+    2. Continuous random variables
 2. Properties
 3. Relation to the sample mean
 
