@@ -1,6 +1,6 @@
 ## Sections
 
-* [Foundations](C01_P001_Probability.md)
+* [Foundations](C01_P000_Foundations.md)
 * Simple comparisons
 * Regression
 * Generalized linear models
