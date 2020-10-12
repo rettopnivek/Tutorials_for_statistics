@@ -8,5 +8,6 @@ These sections detail several foundational concepts and notation for statistical
 * [combinatorics](C01_P002_Combinatorics.md)
 * [Probability distributions](C01_P003_Distributions.md)
 * [Useful statistical distributions](C01_P004_Useful_distributions.md)
+* [Expected values](C01_P005_Expected_values.md)
 
 [Return to sections](C00_P002_Chapters.md)
