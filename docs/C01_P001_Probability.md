@@ -11,7 +11,8 @@ A core foundations of statistics is probability. To make inferences about a larg
     3. <a href="#S01_P03">Types of random variables</a>
 2. <a href="#S02_P01">Probability</a>
     1. <a href="#S02_P01">Probability axioms</a>
-    2. <a href="#S02_P01">Types of probability</a>
+    2. <a href="#S02_P02">Notation with random variables</a>
+    3. <a href="#S02_P03">Types of probability</a>
 
 <a name="S01"></a>
 #### 1. Random variables and outcomes
@@ -29,18 +30,24 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
 
+<a href="#TOC">Table of contents</a>
+
 <a name="S01_P02"></a>
 #### ii. Notation from set theory
 
 When discussing sample spaces, outcomes, and events, one turns to **set theory**. The logic and language of set theory can get complicated quickly, but it is worth remembering some key notation.
 
-* If all elements of an event **A** are included in a different event **B**, we can represent this as A &isin; B (A is an **element** of B).
+* If all elements of a set A are included in a different set B, we can represent this as A &isin; B (A is an **element** of B).
     * Consider the sample space &Omega; = {1,2,3,4} and the events A = {1,2} and B = {1,2,3}. Then A &isin; &Omega;, B &isin; &Omega;, and A &isin; B.
+* If no elements of a set A are in another set B, we can represent this as A &notin; B.
+* We can use &empty; to refer to the **empty set** (i.e., no elements or outcomes).
 * If we want to consider the set of elements that are either 1) in event A, 2) in event B, or 3) in both A and B, we can represent this set of elements as A &cup; B (The **union** of A and B).
     * For the events A = {1,3,5}, B = {1.2,3}, A &cup; B then refers to the elements 1, 2, 3, and 5.
 * If we want to consider only the elements that are part of both event A and event B, we can represent this as A &cap; B (the **intersection** of A and B).
     * For the events A = {1,3,5}, B = {1.2,3}, A &cap; B then refers to only the elements 1, and 3.
-* We can use &empty; to refer to the **empty set** (i.e., no elements or outcomes).
+* The set A and the set B are **mutually exclusive** if no elements of A are in B; in other words, the intersetion of A and B is the empty set, A &cap; B = &empty;.
+
+<a href="#TOC">Table of contents</a>
 
 <a name="S01_P03"></a>
 #### iii. Types of random variables
@@ -54,13 +61,7 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 
 *Note: The concepts of discrete versus continuous random variables are more malleable than they may first seem. For example, it is possible to have a discrete random variable that in theory can take on an infinite number of integer values (i.e., being countably infinite). Furthermore, what we often label as continuous random variables in reality are discrete variables with a very large sample space (e.g., if we measure people who can range between 1 and 2 meters in height with a ruler to reads accurately to a millimeter, technically we have a discrete random variable with a set of 1,001 possible outcomes). In reality, we cannot measure anything with infinite precision!*
 
-The typical notation for a random variable is a boldface capital letter, like **X** or **Y**. A distinction is made between a random variable and its observed value, the latter of which is represented by standard lower-case letters like x or y. So we can write:
-
-**X** = x,
-
-which simply means the observed value for the random variable **X** is x.
-
-<a href="#TOC">Back to table of contents</a>
+<a href="#TOC">Table of contents</a>
 
 <a name="S02"></a>
 #### 2. Probability
@@ -68,22 +69,35 @@ which simply means the observed value for the random variable **X** is x.
 <a name="S02_P01"></a>
 #### i. Probability axioms
 
-To properly describe a random variable, we turn to probability. Probability is a special type of function, assigning numbers to outcomes and events in a sample space that satisfy a set of rules, known as the **probability axioms**.
+To properly describe a random variable, we turn to probability. Probability is a special type of function, assigning numbers to outcomes and events in a sample space that satisfy a set of rules, known as the **probability axioms**. We can call the output of the function P(X) a probability if:
 
-Suppose we have:
-* A sample space &Omega; (with N finite elements or countably infinite elements).
-* An event E<sub>i</sub>, a subset of &Omega;.
-
-We can call the output of the function P(E<sub>i</sub>) a probability if:
-
-1. The value for P(E<sub>i</sub>) lies between 0 and 1; 0 &geq; P(E<sub>i</sub>) &leq; 1.
-2. The likelihood of at least one of the outcomes in the sample space occuring is 1; P(&Omega;) = 1.
-3. The likelihood that at least one event will occur out of a set of two mutually exclusive events equals the sum of the likelihoods for each of the individual events; Given E<sub>i</sub> &notin; E<sub>j</sub>, P(E<sub>i</sub> %cup; E<sub>j</sub>) = P(E<sub>i</sub>) + P(E<sub>j</sub>)
+1. The value for P(X) lies between 0 and 1; 0 &geq; P(X) &leq; 1.
+2. The likelihood that at least one of the outcomes in the sample space &Omega; (of which the event X is a subset) will occur equals 1; P(&Omega;) = 1.
+3. If events X and Y are mutually exclusive (outcomes in X do not overlap with outcomes in Y), then the likelihood that either X or Y will occur equals the sum of the individual likelihoods for X and Y; Given X &notin; Y, P(X %cup; Y) = P(X) + P(Y).
 
 <a name="S02_P02"></a>
-#### ii. Types of probability
+#### ii. Notation with random variables
 
-While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(A) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
+The typical notation for a random variable is a boldface capital letter, like **X** or **Y**. A distinction is made between a random variable and its observed value, the latter of which is represented by standard lower-case letters like x or y. So we can write:
+
+**X** = x,
+
+which simply means the observed value for the random variable **X** is x. Combining this with the notation for probability, we can then represent the probabiliy that the random variable **X** will equal the observed value x as:
+
+P(**X** = x).
+
+Additionally, we can combine this with inequalities. So we can write:
+
+P(**X** &leq; x),
+
+which denotes the probability that a random variable will be less than or equal to an observed value x.
+
+<a href="#TOC">Table of contents</a>
+
+<a name="S02_P03"></a>
+#### iii. Types of probability
+
+While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(**X** = x) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
 1. **Classical** probability.
 
@@ -108,12 +122,11 @@ This type of probability is part of the basis for Bayesian statistics, which has
 
 *Note: These types of probabilities overlap - they are not mutually exclusive!*
 
-<a href="#TOC">Back to table of contents</a>
+<a href="#TOC">Table of contents</a>
 
 ```R
 # Example R code
 ```
-
 
 *Note: Advanced content.*
 
