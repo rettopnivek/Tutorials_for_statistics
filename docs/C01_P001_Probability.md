@@ -82,9 +82,9 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 
 To properly describe a random variable, we turn to probability. Probability is a special type of function, assigning numbers to outcomes and events in a sample space that satisfy a set of rules, known as the **probability axioms**. We can call the output of the function P(X) a probability if:
 
-1. The value for P(X) lies between 0 and 1; 0 &geq; P(X) &leq; 1.
+1. The value for P(X) lies between 0 and 1; 0 &#8925; P(X) &#8924; 1.
 2. The likelihood that at least one of the outcomes in the sample space &Omega; (of which the event X is a subset) will occur equals 1; P(&Omega;) = 1.
-3. If events X and Y are mutually exclusive (outcomes in X do not overlap with outcomes in Y), then the likelihood that either X or Y will occur equals the sum of the individual likelihoods for X and Y; Given X &notin; Y, P(X %cup; Y) = P(X) + P(Y).
+3. If events X and Y are mutually exclusive (outcomes in X do not overlap with outcomes in Y), then the likelihood that either X or Y will occur equals the sum of the individual likelihoods for X and Y; Given X &notin; Y, P(X &cup; Y) = P(X) + P(Y).
 
 <a name="S02_P02"></a>
 #### 2.2. Notation with random variables
