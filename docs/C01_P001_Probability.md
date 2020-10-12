@@ -89,17 +89,17 @@ To properly describe a random variable, we turn to probability. Probability is a
 <a name="S02_P02"></a>
 #### 2.2. Notation with random variables
 
-The typical notation for a random variable is a boldface capital letter, like **X** or **Y**. A distinction is made between a random variable and its observed value, the latter of which is represented by standard lower-case letters like x or y. So we can write:
+The typical notation for a random variable is a capital letter, like X or Y. A distinction is made between a random variable and its observed value, the latter of which is represented by lower-case letters like x or y. So we can write:
 
-**X** = x,
+X = x,
 
-which simply means the observed value for the random variable **X** is x. Combining this with the notation for probability, we can then represent the probabiliy that the random variable **X** will equal the observed value x as:
+which simply means the observed value for the random variable X is x. Combining this with the notation for probability, we can then represent the probabiliy that the random variable X will equal the observed value x as:
 
-P(**X** = x).
+P(X = x).
 
 Additionally, we can combine this with inequalities. So we can write:
 
-P(**X** &leq; x),
+P(X &#x2264; x),
 
 which denotes the probability that a random variable will be less than or equal to an observed value x.
 
@@ -108,7 +108,7 @@ which denotes the probability that a random variable will be less than or equal 
 <a name="S02_P03"></a>
 #### 2.3. Types of probability
 
-While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(**X** = x) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
+While the probability axioms lay out the rules that determine what constitutes a valid probability, this does not solve *how to interpret probabilities*. What does it mean for P(X = x) = 0.1? One straightforward way to think of probability is that it is the ratio of the actual number of occurences divided by the total number of possible occurences. However, there are a few different ways to assign probabilities to outcomes, typically divided into three types:
 
 1. **Classical** probability.
 
@@ -134,12 +134,6 @@ This type of probability is part of the basis for Bayesian statistics, which has
 *Note: These types of probabilities overlap - they are not mutually exclusive!*
 
 <a href="#TOC">Table of contents</a>
-
-```R
-# Example R code
-```
-
-*Note: Advanced content.*
 
 [Return to sections](C00_P002_Chapters.md)
 
