@@ -47,6 +47,8 @@ When discussing sample spaces, outcomes, and events, one turns to **set theory**
     * For the events A = {1,3,5}, B = {1.2,3}, A &cap; B then refers to only the elements 1, and 3.
 * The set A and the set B are **mutually exclusive** if no elements of A are in B; in other words, the intersetion of A and B is the empty set, A &cap; B = &empty;.
 
+<img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
+
 <a href="#TOC">Table of contents</a>
 
 <a name="S01_P03"></a>
