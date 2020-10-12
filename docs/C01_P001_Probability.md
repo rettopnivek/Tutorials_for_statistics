@@ -26,7 +26,7 @@ A core foundation of statistics is probability. To make inferences about a large
 * **Event**: A collection of outcomes, a subset of the sample space. A event can consist of a single outcome, or multiple outcomes. Furthermore, the same outcome can appear in different events.
 * **Experiment**: An opportunity to observe a outcome or event.
 
-Consider the result of rolling a numbered six-sided die. This is a random variable, as the numbered side that ends up facing upward can be any value between 1 to 6, and can change each time you roll the die. The upward-facing number is an outcome, and the values 1 through 6 are the sample space, as this describes all possible outcomes. This sample space can be divided into many different possible events, from singular outcomes (1, 2, 3, etc.), to combinations ( 1 or 2, 1 or 3, 2 or 3, etc.). The act of rolling the die and observing a which value ends up facing upwards is an experiment.
+Consider the result of rolling a numbered six-sided die. This is a random variable, as the numbered side that ends up facing upward can be any value between 1 to 6, and can change each time you roll the die. The upward-facing number is an outcome, and the values 1 through 6 are the sample space, as this describes all possible outcomes. This sample space can be divided into many different possible events, from singular outcomes (1, 2, 3, etc.), to combinations ( 1 or 2, 1 or 3, 2 or 3, etc.). The act of rolling the die and observing which value ends up facing upwards is an experiment.
 
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
 
@@ -37,15 +37,24 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 
 When discussing sample spaces, outcomes, and events, one turns to **set theory**. The logic and language of set theory can get complicated quickly, but it is worth remembering some key notation.
 
-* If all elements of a set A are included in a different set B, we can represent this as A &isin; B (A is an **element** of B).
-    * Consider the sample space &Omega; = {1,2,3,4} and the events A = {1,2} and B = {1,2,3}. Then A &isin; &Omega;, B &isin; &Omega;, and A &isin; B.
-* If no elements of a set A are in another set B, we can represent this as A &notin; B.
-* We can use &empty; to refer to the **empty set** (i.e., no elements or outcomes).
-* If we want to consider the set of elements that are either 1) in event A, 2) in event B, or 3) in both A and B, we can represent this set of elements as A &cup; B (The **union** of A and B).
-    * For the events A = {1,3,5}, B = {1.2,3}, A &cup; B then refers to the elements 1, 2, 3, and 5.
-* If we want to consider only the elements that are part of both event A and event B, we can represent this as A &cap; B (the **intersection** of A and B).
-    * For the events A = {1,3,5}, B = {1.2,3}, A &cap; B then refers to only the elements 1, and 3.
-* The set A and the set B are **mutually exclusive** if no elements of A are in B; in other words, the intersetion of A and B is the empty set, A &cap; B = &empty;.
+* When **A is an element of B**:
+    * Notation - A &isin; B.
+    * If all elements of a set A are included in a different set B.
+* When **A is not an element of B**:
+    * Notation - A &notin; B.
+    * If no elements of a set A are included in a different set B.
+* **Empty set**:
+    * Notation - &empty;.
+    * The unique set consisting of no elements, of size 0.
+* The **union of A and B**:
+    * Notation - A &cup; B.
+    * The elements that are either in set A, set B, or in both sets.
+* The **intersection of A and B**:
+    * Notation - A &cap; B.
+    * The elements that are only in both set A and set B.
+* When **A and B are mutually exclusive**:
+    * Notation - A &cap; B = &empty;.
+    * When no elements in set A nor set B are contained in the other set.
 
 <img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
 
