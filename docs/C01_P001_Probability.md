@@ -48,8 +48,8 @@ Set theory provides several fundamental tools that can be used to describe rando
      * A specific side (i.e., the side labeled '1') is an element/member of the set.
 
 Consider the set &Omega; = \{ 1, 2, 3, 4, 5, 6 \}. There are several **operators** we can use to indicate whether elements are in a set or not:
-* 1 &isin; \&Omega; - the number 1 is an elment of the the set &Omega;.
-* 7 &notin; \&Omega; - the number 7 is not an elment of the the set &Omega;.
+* 1 &isin; &Omega; - the number 1 is an elment of the the set &Omega;.
+* 7 &notin; &Omega; - the number 7 is not an elment of the the set &Omega;.
 * \{ 1, 3, 5 \} &sub; &Omega; - the set of numbers 1, 3, and 5 form a **subset** of the larger set &Omega;.
 
 There are several special sets worthy of note:
