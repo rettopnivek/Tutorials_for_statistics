@@ -5,12 +5,15 @@ A core foundation of statistics is probability. To make inferences about a large
 <a name="TOC"></a>
 ### Table of contents
 
-1. <a href="#S01">Random variables</a>
+1. <a href="#S01">What is a random variable</a>
 2. <a href="#S02">Types of random variables</a>
 3. <a href="#S03">Set theory</a>
+4. <a href="#S04">Set theory (Continuous variables)</a>
+5. <a href="#S05">Kolomogorov's axioms of probability</a>
+6. <a href="#S06">Interpreting probabilities</a>
 
 <a name="S01"></a>
-#### 1. Random variables
+#### 1. What is a random variable
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -21,6 +24,10 @@ A core foundation of statistics is probability. To make inferences about a large
 Consider the result of rolling a numbered six-sided die. This is a random variable, as the numbered side that ends up facing upward can be any value between 1 to 6, and can change each time you roll the die. The upward-facing number is an outcome, and the values 1 through 6 are the sample space, as this describes all possible outcomes. This sample space can be divided into many different possible events, from singular outcomes (1, 2, 3, etc.), to combinations ( 1 or 2, 1 or 3, 2 or 3, etc.). The act of rolling the die and observing which value ends up facing upwards is an experiment.
 
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
+
+##### References:
+
+* Luce, R. D. (1986). *Response times: Their role in inferring elementary mental organization*. Oxford University Press. [&rarr;](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780195070019.001.0001/acprof-9780195070019)
 
 <a href="#TOC">&#10548;</a>
 
@@ -71,11 +78,13 @@ To describe how these sets overlap, three key concepts are:
 
 <a href="#TOC">&#10548;</a>
 
-#### 3. Set theory (Continuous variables)
+<a name="S04"></a>
+#### 4. Set theory (Continuous variables)
 
 Forthcoming
 
-#### 4. Probability
+<a name="S05"></a>
+#### 4. Kolmogorov's axioms of probability
 
 With the concepts and notations of set theory, we can then formalize a definition of probability. The **sample space** for a random variable is a *set*, specifically an *exhausitive* and *mutually exclusive* list of all possible outcomes. **Events** are then *subsets* of the sample space. **Probability** then is the act of *assigning numbers to these events*. More specifically, probability is the output of a function that takes a set as input; if the output safisfies a set of rules, then it is a probability. 
 
@@ -88,7 +97,7 @@ We can call the output of a function P(X) acting upon a set X a probability if..
 A more restrictive variant of the third rule is if \{ X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> \} partitions the set X, then P(X) = P(X<sub>1</sub>) + P(X<sub>2</sub>) + ... + P(X<sub>n</sub>).
 
 <a name="S02_P02"></a>
-### 4. Notation
+### 4. Notation for random variables and probability
 
 The typical notation for a random variable is a capital letter, like X or Y. A distinction is made between a random variable and its observed value, the latter of which is represented by lower-case letters like x or y. So we can write:
 
