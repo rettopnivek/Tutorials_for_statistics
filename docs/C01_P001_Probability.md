@@ -22,7 +22,7 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
 
-<a href="#TOC">Table of contents</a>
+<a href="#TOC"><&#8657;/a>
 
 <a name="S02"></a>
 #### 2. Types of random variables
@@ -36,17 +36,25 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 
 *Note: The concepts of discrete versus continuous random variables are more malleable than they may first seem. For example, it is possible to have a discrete random variable that in theory can take on an infinite number of integer values (i.e., being countably infinite). Furthermore, what we often label as continuous random variables in reality are discrete variables with a very large sample space (e.g., if we measure people who can range between 1 and 2 meters in height with a ruler to reads accurately to a millimeter, technically we have a discrete random variable with a set of 1,001 possible outcomes). In reality, we cannot measure anything with infinite precision!*
 
-<a href="#TOC">Table of contents</a>
+<a href="#TOC"><&#8657;/a>
 
 <a name="S03"></a>
 #### 3. Set theory
 
-Set theory provides several fundamental tools that can be used to describe random variables and is a core foundation for the theory of probability. Set theory provides a formal mathematical way of describing collections of elements. Some basic definitions and notation include...
+Set theory provides several fundamental tools that can be used to describe random variables and is a core part of Kolomogorov's axioms of probability. Set theory provides a formal mathematical way of describing collections of elements. The concepts and notation useful for discussing probability later on are easiest to introduce in the context of **finite sets**, when there are a finite collection of elements to describe.
 
 * **Set**: A collection of objects (called **elements** or **members**) regarded as a single object.
-* **&isin;**: Indicates that an object is an element or member of a set. So A &isin; B indicates that object A is an element/member in the set B.
-* **&notin;**: Indicates that an object is not an element or member of a set. So C &notin; B indicates that object C is not an element/member in the set B.
-* **&sub;**: Indicates when a set is a *subset* of another set. So A &sub; B indicates that all elements/members in set A are also contained in set B.
+     * The sides of a die (1 to 6) are an example of a set.
+     * A specific side (i.e., the side labeled '1') is an element/member of the set.
+
+Consider the set &Omega; = \{ 1, 2, 3, 4, 5, 6 \}. There are several **operators** we can use to indicate whether elements are in a set or not:
+* 1 &isin; \&Omega; - the number 1 is an elment of the the set &Omega;.
+* 7 &notin; \&Omega; - the number 7 is not an elment of the the set &Omega;.
+* \{ 1, 3, 5 \} &sub; &Omega; - the set of numbers 1, 3, and 5 form a **subset** of the larger set &Omega;.
+
+There are several special sets worthy of note:
+* The **empty set**, or &empty; - a set with no elments or members.
+* **Real numbers**, or &#8477; - the set of all rational or irrational (e.g., ) numbers, either positive, negative, or zero.
 
 Two key operators for identifying elements/members based on whether they are/are not contained across sets are...
 
@@ -63,7 +71,7 @@ indicates that the sets A and B are mutually exclusive or disjoint, as they cont
 
 <img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
 
-<a href="#TOC">Table of contents</a>
+<a href="#TOC"><&#8657;/a>
 
 #### 3. Probability
 
