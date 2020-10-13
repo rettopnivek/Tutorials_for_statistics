@@ -62,8 +62,10 @@ Consider the set &Omega; = \{ 1, 2, 3, 4, 5, 6 \}. There are several **operators
 There are several special sets worthy of note:
 * The **empty set**, or &empty; - a set with no elments or members.
 * **Real numbers**, or &#8477; - the set of all rational or irrational (e.g., ) numbers, either positive, negative, or zero.
+* **Natural numbers**, or &#8469; - the set of whole numbers (either starting from 0 or 1, depending on the field).
+* **Integers**, or &#8484; - the set with whole numbers, negative whole numbers, and zero.
 
-To describe how these sets overlap, three key concepts are: 
+To describe how sets do or do not overlap, three useful concepts are: 
 * The **union** of two sets;
      * For sets A and B, their union refers to the set of elements contained in either A or B, irrespective of overlap.
      * Written as A &cup; B.
