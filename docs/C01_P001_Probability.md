@@ -22,7 +22,7 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
 
-<a href="#TOC"><&#8657;/a>
+<a href="#TOC">&#8657;</a>
 
 <a name="S02"></a>
 #### 2. Types of random variables
@@ -36,7 +36,7 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 
 *Note: The concepts of discrete versus continuous random variables are more malleable than they may first seem. For example, it is possible to have a discrete random variable that in theory can take on an infinite number of integer values (i.e., being countably infinite). Furthermore, what we often label as continuous random variables in reality are discrete variables with a very large sample space (e.g., if we measure people who can range between 1 and 2 meters in height with a ruler to reads accurately to a millimeter, technically we have a discrete random variable with a set of 1,001 possible outcomes). In reality, we cannot measure anything with infinite precision!*
 
-<a href="#TOC"><&#8657;/a>
+<a href="#TOC">&#8657;</a>
 
 <a name="S03"></a>
 #### 3. Set theory
@@ -71,7 +71,7 @@ indicates that the sets A and B are mutually exclusive or disjoint, as they cont
 
 <img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
 
-<a href="#TOC"><&#8657;/a>
+<a href="#TOC">&#8657;</a>
 
 #### 3. Probability
 
