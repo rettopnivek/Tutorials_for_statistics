@@ -1,6 +1,6 @@
 ## Probability (Concepts)
 
-A core foundation of statistics is probability. To make inferences about a large group based on a smaller sample, or to predict future events, or to weigh how much the evidence from messy data supports a theory, we rely on probability. This section introduces key concepts from probability: 1) the idea of random variables, 2) relevant details and notation from set theory, 3) the probability axioms.
+A core foundation of statistics is probability. To make inferences about a large group based on a smaller sample, or to predict future events, or to weigh how much the evidence from messy data supports a theory, we rely on probability.
 
 <a name="TOC"></a>
 ### Table of contents
@@ -22,7 +22,7 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 
 <img src="C01_P001_I001.png" alt="Figure 1.1" width="500" height="500"/>
 
-<a href="#TOC">&#8657;</a>
+<a href="#TOC">&#10548;</a>
 
 <a name="S02"></a>
 #### 2. Types of random variables
@@ -36,7 +36,7 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 
 *Note: The concepts of discrete versus continuous random variables are more malleable than they may first seem. For example, it is possible to have a discrete random variable that in theory can take on an infinite number of integer values (i.e., being countably infinite). Furthermore, what we often label as continuous random variables in reality are discrete variables with a very large sample space (e.g., if we measure people who can range between 1 and 2 meters in height with a ruler to reads accurately to a millimeter, technically we have a discrete random variable with a set of 1,001 possible outcomes). In reality, we cannot measure anything with infinite precision!*
 
-<a href="#TOC">&#8657;</a>
+<a href="#TOC">&#10548;</a>
 
 <a name="S03"></a>
 #### 3. Set theory
@@ -56,24 +56,26 @@ There are several special sets worthy of note:
 * The **empty set**, or &empty; - a set with no elments or members.
 * **Real numbers**, or &#8477; - the set of all rational or irrational (e.g., ) numbers, either positive, negative, or zero.
 
-Two key operators for identifying elements/members based on whether they are/are not contained across sets are...
-
-* **&cup;**: Union; A &cup; B refers to the set of elements/members in either set A or B, irrespective of overlap.
-* **&cap;**: Intersection; A &cap; B refers to only the set of elements/members contained in both set A and B.
-
-There are several special types of sets, most notably the **empty set**, or **&empty;**, a set with no elements or members.
-
-Using the concepts of intersection and the empty set, we can specify **mutually exclusive** or **disjoint** sets:
-
-A &cap; B = &empty;,
-
-indicates that the sets A and B are mutually exclusive or disjoint, as they contain no overlapping elements/members.
+To describe how these sets overlap, three key concepts are: 
+* The **union** of two sets;
+     * For sets A and B, their union refers to the set of elements contained in either A or B, irrespective of overlap.
+     * Written as A &cup; B.
+* The **intersection** of two sets;
+     * For sets A and B, their intersection refers to the set of elements contained in both A or B, only overlapping elements.
+     * Written as A &cap; B.
+* **Mutually exclusive** or **disjoint** sets;
+     * Sets A and B are mutually exclusive/disjoint when no elements in either set overlap.
+     * Written as A &cap; B = &empty;.
 
 <img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
 
-<a href="#TOC">&#8657;</a>
+<a href="#TOC">&#10548;</a>
 
-#### 3. Probability
+#### 3. Set theory (Continuous variables)
+
+Forthcoming
+
+#### 4. Probability
 
 With the concepts and notations of set theory, we can then formalize a definition of probability. The **sample space** for a random variable is a *set*, specifically an *exhausitive* and *mutually exclusive* list of all possible outcomes. **Events** are then *subsets* of the sample space. **Probability** then is the act of *assigning numbers to these events*. More specifically, probability is the output of a function that takes a set as input; if the output safisfies a set of rules, then it is a probability. 
 
@@ -86,7 +88,6 @@ We can call the output of a function P(X) acting upon a set X a probability if..
 A more restrictive variant of the third rule is if \{ X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> \} partitions the set X, then P(X) = P(X<sub>1</sub>) + P(X<sub>2</sub>) + ... + P(X<sub>n</sub>).
 
 <a name="S02_P02"></a>
-
 ### 4. Notation
 
 The typical notation for a random variable is a capital letter, like X or Y. A distinction is made between a random variable and its observed value, the latter of which is represented by lower-case letters like x or y. So we can write:
@@ -103,7 +104,7 @@ P(X &#x2264; x),
 
 which denotes the probability that a random variable will be less than or equal to an observed value x.
 
-<a href="#TOC">Table of contents</a>
+<a href="#TOC">&#10548;</a>
 
 #### 5. Types of probability
 
@@ -132,7 +133,7 @@ This type of probability is part of the basis for Bayesian statistics, which has
 
 *Note: These types of probabilities overlap - they are not mutually exclusive!*
 
-<a href="#TOC">Table of contents</a>
+<a href="#TOC">&#10548;</a>
 
 [Return to sections](C00_P002_Chapters.md)
 
