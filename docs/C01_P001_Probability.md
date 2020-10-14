@@ -5,15 +5,14 @@ A core foundation of statistics is probability. To make inferences about a large
 <a name="TOC"></a>
 ### Table of contents
 
-1. <a href="#S01">What is a random variable</a>
+1. <a href="#S01">What is a random variable?</a>
 2. <a href="#S02">Types of random variables</a>
 3. <a href="#S03">Set theory</a>
-4. <a href="#S04">Set theory (Continuous variables)</a>
-5. <a href="#S05">Kolomogorov's axioms of probability</a>
+5. <a href="#S04">The Kolomogorov axioms of probability</a>
 6. <a href="#S06">Interpreting probabilities</a>
 
 <a name="S01"></a>
-#### 1. What is a random variable
+#### 1. What is a random variable?
 
 * **Random variable**: A variable that can randomly take on one of several possible numeric values.
 * **Outcome**: The observed value for a random variable.
@@ -81,22 +80,26 @@ To describe how sets do or do not overlap, three useful concepts are:
 <a href="#TOC">&#10548;</a>
 
 <a name="S04"></a>
-#### 4. Set theory (Continuous variables)
+#### 4. The Kolmogorov axioms of probability
 
-Forthcoming
+Paraphrasing from an excellent blog post by [John Mount]{https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told/), we have two major questions regarding probabilities:
 
-<a name="S05"></a>
-#### 4. Kolmogorov's axioms of probability
+1. What do probabilities mean?
+2. What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?
 
-With the concepts and notations of set theory, we can then formalize a definition of probability. The **sample space** for a random variable is a *set*, specifically an *exhausitive* and *mutually exclusive* list of all possible outcomes. **Events** are then *subsets* of the sample space. **Probability** then is the act of *assigning numbers to these events*. More specifically, probability is the output of a function that takes a set as input; if the output safisfies a set of rules, then it is a probability. 
+Kolmogorov (1933), relying on set theory, laid out a series of axioms to attempt to answer question 2. As per citation (with slight notational changes):
 
-We can call the output of a function P(X) acting upon a set X a probability if... 
+Let E be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let F be a set of subsets of E, where the elements of F are called *random events*. Then...
 
-1. The value for P(X) is greater than or equal to zero; P(X) &#x2265; 0.
-2. The likelihood that at least one of the outcomes in the sample space &Omega; (of which the event X is a subset) will occur equals 1; P(&Omega;) = 1.
-3: If events X and Y are mutually exclusive (outcomes in X do not overlap with outcomes in Y), then the likelihood that either X or Y will occur equals the sum of the individual likelihoods for X and Y; Given X &cap; Y = &empty;, P(X &cup; Y) = P(X) + P(Y).
+1. F is a *field of sets*.
+2. F contains E.
+3. To each set F<sub>i</sub> in F, a non-negative real number P(sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
+4. P(E) equals 1.
+5. V. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
 
-A more restrictive variant of the third rule is if \{ X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> \} partitions the set X, then P(X) = P(X<sub>1</sub>) + P(X<sub>2</sub>) + ... + P(X<sub>n</sub>).
+*Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
+
+The the concepts and notations of set theory, we can then formalize a definition of probability. The **sample space** for a random variable is a *set*, specifically an *exhausitive* and *mutually exclusive* list of all possible outcomes. **Events** are then *subsets* of the sample space. **Probability** then is the act of *assigning numbers to these events*. More specifically, probability is the output of a function that takes a set as input; if the output safisfies a set of rules, then it is a probability. 
 
 <a name="S02_P02"></a>
 ### 4. Notation for random variables and probability
