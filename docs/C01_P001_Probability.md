@@ -87,7 +87,7 @@ Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Ax
 1. What do probabilities mean?
 2. What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?
 
-Kolmogorov (1933), relying on set theory, laid out a series of axioms to attempt to answer question 2. As per citation (with slight notational changes):
+Kolmogorov (1933), relying on set theory, laid out a series of axioms to attempt to answer question 2. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
 
 Let E be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let F be a set of subsets of E, where the elements of F are called *random events*. Then...
 
@@ -103,8 +103,8 @@ The the concepts and notations of set theory, we can then formalize a definition
 
 ##### References:
 
-* John Mount (2020, September 19). Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told [Blog post]. Retrieved from https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told/
-* Kolmogorov, A. N. (2018). *Foundations of the Theory of Probability* (N. Morrison, Trans.). Dover. (Original work published 1933).
+* John Mount (2020, September 19). Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told [Blog post]. [&rarr;](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told)
+* Kolmogorov, A. N. (2018). *Foundations of the Theory of Probability* (N. Morrison, Trans.; 2nd edition). Dover. (Original work published 1933).[&rarr;](https://store.doverpublications.com/0486821595.html)
 
 <a name="S02_P02"></a>
 ### 4. Notation for random variables and probability
