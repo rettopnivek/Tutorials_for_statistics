@@ -82,7 +82,7 @@ To describe how sets do or do not overlap, three useful concepts are:
 <a name="S04"></a>
 #### 4. The Kolmogorov axioms of probability
 
-Paraphrasing from an excellent blog post by [John Mount]{https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told/), we have two major questions regarding probabilities:
+Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told ](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told), we have two major questions regarding probabilities:
 
 1. What do probabilities mean?
 2. What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?
@@ -93,13 +93,18 @@ Let E be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, .
 
 1. F is a *field of sets*.
 2. F contains E.
-3. To each set F<sub>i</sub> in F, a non-negative real number P(sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
+3. To each set F<sub>i</sub> in F, a non-negative real number P(<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
 4. P(E) equals 1.
 5. V. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
 
 *Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
 
 The the concepts and notations of set theory, we can then formalize a definition of probability. The **sample space** for a random variable is a *set*, specifically an *exhausitive* and *mutually exclusive* list of all possible outcomes. **Events** are then *subsets* of the sample space. **Probability** then is the act of *assigning numbers to these events*. More specifically, probability is the output of a function that takes a set as input; if the output safisfies a set of rules, then it is a probability. 
+
+##### References:
+
+* John Mount (2020, September 19). Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told [Blog post]. Retrieved from https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told/
+* Kolmogorov, A. N. (2018). *Foundations of the Theory of Probability* (N. Morrison, Trans.). Dover. (Original work published 1933).
 
 <a name="S02_P02"></a>
 ### 4. Notation for random variables and probability
