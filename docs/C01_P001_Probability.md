@@ -84,8 +84,8 @@ To describe how sets do or do not overlap, three useful concepts are:
 
 Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told ](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told), we have two major questions regarding probabilities:
 
-1. What do probabilities mean?
-2. What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?
+1. **What do probabilities mean?**
+2. **What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?**
 
 Kolmogorov (1933), relying on set theory, laid out a series of axioms to attempt to answer question 2. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
 
