@@ -64,7 +64,10 @@ There are several special sets worthy of note:
 * **Natural numbers**, or &#8469; - the set of whole numbers (either starting from 0 or 1, depending on the field).
 * **Integers**, or &#8484; - the set with whole numbers, negative whole numbers, and zero.
 
-To describe how sets do or do not overlap, three useful concepts are: 
+To describe how sets do or do not overlap, four useful concepts are: 
+* The **complement** of a set;
+     * All elements not in a set.
+     * Written as A'.
 * The **union** of two sets;
      * For sets A and B, their union refers to the set of elements contained in either A or B, irrespective of overlap.
      * Written as A &cup; B.
@@ -87,19 +90,21 @@ Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Ax
 1. **What do probabilities mean?**
 2. **What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?**
 
-Kolmogorov (1933), relying on set theory, laid out a series of axioms to attempt to answer question 2. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
+Kolmogorov (1933), relying on set theory, laid out **5 axioms** (propositions to be taken as true) to attempt to answer *question 2*. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
 
-Let E be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let F be a set of subsets of E, where the elements of F are called *random events*. Then...
+Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let F be a set of subsets of E, where the elements of F are called *random events*. Then...
 
-1. F is a *field of sets*.
+1. F is a *field of sets* \[now known as a **&sigma;-algebra**\].
 2. F contains E.
-3. To each set F<sub>i</sub> in F, a non-negative real number P(<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
+3. To each set F<sub>i</sub> in F, a non-negative real number P(F<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
 4. P(E) equals 1.
-5. V. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
+5. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
+
+**Axioms 1**: The *field of sets*, or a **&sigma;-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> %cap; F<sub>j</sub>, the set differences F<sub>i</sub> %cap; F<sub>j</sub>' and F<sub>i</sub>' %cap; F<sub>j</sub> are also all in F.
+
+**Axiom 4**: This is an application of the **law of total probability**.
 
 *Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
-
-The the concepts and notations of set theory, we can then formalize a definition of probability. The **sample space** for a random variable is a *set*, specifically an *exhausitive* and *mutually exclusive* list of all possible outcomes. **Events** are then *subsets* of the sample space. **Probability** then is the act of *assigning numbers to these events*. More specifically, probability is the output of a function that takes a set as input; if the output safisfies a set of rules, then it is a probability. 
 
 ##### References:
 
