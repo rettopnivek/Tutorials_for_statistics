@@ -102,7 +102,7 @@ Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</s
 
 Additional notes...
 
-**Axiom 1**: The *field of sets*, or a **&sigma;-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> &cap; F<sub>j</sub>, the set differences F<sub>i</sub> &cap; F<sub>j</sub><sup>c</sup> and F<sub>i</sub><sup>c</sup> &cap; F<sub>j</sub> are also all in F. In other words, a &sigma;-algebra is **closed under the boolean operations complement, union, and intersection**.
+**Axiom 1**: The *field of sets*, or a **&sigma;-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> &cap; F<sub>j</sub>, and the set differences F<sub>i</sub> &cap; F<sub>j</sub><sup>c</sup> and F<sub>i</sub><sup>c</sup> &cap; F<sub>j</sub> are also all in F. In other words, a &sigma;-algebra is **closed under the boolean operations complement, union, and intersection**.
 
 **Axiom 3**: This is an application of the **law of total probability**.
 
