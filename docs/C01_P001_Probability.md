@@ -67,7 +67,7 @@ There are several special sets worthy of note:
 To describe how sets do or do not overlap, four useful concepts are: 
 * The **complement** of a set;
      * All elements not in a set.
-     * Written as A'.
+     * Written as A' or A<sup>c</sup>.
 * The **union** of two sets;
      * For sets A and B, their union refers to the set of elements contained in either A or B, irrespective of overlap.
      * Written as A &cup; B.
