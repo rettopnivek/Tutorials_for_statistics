@@ -100,9 +100,14 @@ Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</s
 4. P(E) equals 1.
 5. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
 
-**Axioms 1**: The *field of sets*, or a **&sigma;-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> %cap; F<sub>j</sub>, the set differences F<sub>i</sub> %cap; F<sub>j</sub>' and F<sub>i</sub>' %cap; F<sub>j</sub> are also all in F.
+**Axiom 1**: The *field of sets*, or a **&sigma;-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> &cap; F<sub>j</sub>, the set differences F<sub>i</sub> &cap; F<sub>j</sub>' and F<sub>i</sub>' &cap; F<sub>j</sub> are also all in F. In other words, a &sigma;-algebra is **closed under the boolean operations complement, union, and intersection**.
 
-**Axiom 4**: This is an application of the **law of total probability**.
+**Axiom 3**: This is an application of the **law of total probability**.
+
+**Axioms 3 - 5**: These axioms define probabililty, and several useful collaries can be derived from them:
+
+* **Complement rule** - For any event A, P(A<sup>c</sup>) = 1 - P(A).
+* **Inclusion-Exclusion** - For two arbitrary events A and B, P( A &cup; B ) = P(A) + P(B) - P( A &cap; B).
 
 *Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
 
