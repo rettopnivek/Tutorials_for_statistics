@@ -90,7 +90,7 @@ Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Ax
 1. **What do probabilities mean?**
 2. **What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?**
 
-Kolmogorov (1933), relying on set theory, laid out **5 axioms** (propositions to be taken as true) to attempt to answer *question 2*. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
+Kolmogorov (1933), relying on set theory, laid out **6 axioms** (propositions to be taken as true) to attempt to answer *question 2*. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
 
 Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let F be a set of subsets of E, where the elements of F are called *random events*. Then...
 
@@ -99,17 +99,19 @@ Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</s
 3. To each set F<sub>i</sub> in F, a non-negative real number P(F<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
 4. P(E) equals 1.
 5. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
+6.
 
-Additional notes...
+**Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
-**Axiom 1**: The *field of sets*, or a **&sigma;-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> &cap; F<sub>j</sub>, and the set differences F<sub>i</sub> &cap; F<sub>j</sub><sup>c</sup> and F<sub>i</sub><sup>c</sup> &cap; F<sub>j</sub> are also all in F. In other words, a &sigma;-algebra is **closed under the boolean operations complement, union, and intersection**.
+- The *field of sets*, or a **&sigma;-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> &cap; F<sub>j</sub>, and the set differences F<sub>i</sub> &cap; F<sub>j</sub><sup>c</sup> and F<sub>i</sub><sup>c</sup> &cap; F<sub>j</sub> are also all in F.
+    - In other words, a &sigma;-algebra is **closed under the boolean operations complement, union, and intersection**.
 
-**Axiom 3**: This is an application of the **law of total probability**.
+**Axioms 3 - 5**: These are the *key axioms that define probability*. These axioms (or variants thereof) are what you will typically see reported in textbooks and introductory statistics courses. Several useful collaries can be derived from them:
 
-**Axioms 3 - 5**: These axioms define probabililty, and several useful collaries can be derived from them:
+- **Complement rule** - For any event A, P(A<sup>c</sup>) = 1 - P(A).
+- **Inclusion-Exclusion** - For two arbitrary events A and B, P( A &cup; B ) = P(A) + P(B) - P( A &cap; B).
 
-* **Complement rule** - For any event A, P(A<sup>c</sup>) = 1 - P(A).
-* **Inclusion-Exclusion** - For two arbitrary events A and B, P( A &cup; B ) = P(A) + P(B) - P( A &cap; B).
+**Axiom 6**: This axiom ensures the definition of probability works both for finite and continuous variables.
 
 *Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
 
