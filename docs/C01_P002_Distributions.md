@@ -16,7 +16,7 @@ The probability that **X** is less than or equal to a real value x, or F(x) = P(
 
 A function must meet 3 requirements to be a *cumulative distribution function*, or **CDF**:
 
-1. Monotonicity: if x<sub>1</sub> < x<sub>2</sub>, them F(x<sub>1</sub>) < F(x<sub>2</sub>).
+1. Monotonicity: if x<sub>1</sub> < x<sub>2</sub>, then F(x<sub>1</sub>) < F(x<sub>2</sub>).
 2. As x approaches positive infinity (or the highest allowable value), F(x) approaches 1.
 3. As x approaches negative infinity (or the lowest allowable value), F(x) approaches 0.
 
