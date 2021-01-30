@@ -96,12 +96,12 @@ Kolmogorov (1933), relying on set theory, laid out **6 axioms** (propositions to
 
 Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let F be a set of subsets of E, where the elements of F are called *random events*. Then...
 
-1. F is a *field of sets* \[now known as a **&sigma;-algebra**\].
+1. F is a *field of sets* \[now known as a **set-algebra**\].
 2. F contains E.
 3. To each set F<sub>i</sub> in F, a non-negative real number P(F<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
 4. P(E) equals 1.
 5. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
-6. If F<sub>1</sub> &#8839; F<sub>2</sub> &#8839; ... is a countably infinite decreasing sequence of events from F with &#8898;<span><sup>&#8734;</sup><sub>i = 1</sub></span> F<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( F<sub>i</sub> ) = 0.
+6. If F<sub>1</sub> &#8839; F<sub>2</sub> &#8839; ... is a countably infinite decreasing sequence of events from F with &#8898;<sup>&#8734;</sup><sub>i = 1</sub> F<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( F<sub>i</sub> ) = 0.
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
@@ -116,6 +116,12 @@ Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</s
 **Axiom 6**: This axiom ensures the definition of probability works both for finite and continuous variables.
 
 *Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
+
+Modern textbooks typically summarize Kolmogorov's 6 axioms down to 3:
+
+1. The probability of an event E is a non-negative real number: P(E) &#8805; 0 and P(E) &#8712; &#8477;.
+2. The probability of at least one event occuring is 1: P(F) = 1.
+3. Countable additivity (or &sigma;-additivity): For all countable collections of pairwise disjoint sets in F: P( &cup;<sup>&#8734;</sup><sub>i = 1<sub/> ) = &sum;<sup>&#8734;</sup><sub>i = 1</sub> P( E<sub>i</sub> ).
 
 ##### References:
 
