@@ -11,6 +11,8 @@ A core foundation of statistics is probability. To make inferences about a large
 5. <a href="#S04">The Kolomogorov axioms of probability</a>
 6. <a href="#S06">Interpreting probabilities</a>
 
+<a href="#END">&#129147;</a>
+
 <a name="S01"></a>
 #### 1. What is a random variable?
 
@@ -28,7 +30,7 @@ Consider the result of rolling a numbered six-sided die. This is a random variab
 
 * Luce, R. D. (1986). *Response times: Their role in inferring elementary mental organization*. Oxford University Press. [&rarr;](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780195070019.001.0001/acprof-9780195070019)
 
-<a href="#TOC">&#10548;</a>
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 <a name="S02"></a>
 #### 2. Types of random variables
@@ -42,7 +44,7 @@ Rolling a six-sided die is an example of a discrete random variable, as only six
 
 *Note: The concepts of discrete versus continuous random variables are more malleable than they may first seem. For example, it is possible to have a discrete random variable that in theory can take on an infinite number of integer values (i.e., being countably infinite). Furthermore, what we often label as continuous random variables in reality are discrete variables with a very large sample space (e.g., if we measure people who can range between 1 and 2 meters in height with a ruler to reads accurately to a millimeter, technically we have a discrete random variable with a set of 1,001 possible outcomes). In reality, we cannot measure anything with infinite precision!*
 
-<a href="#TOC">&#10548;</a>
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 <a name="S03"></a>
 #### 3. Set theory
@@ -80,7 +82,7 @@ To describe how sets do or do not overlap, four useful concepts are:
 
 <img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
 
-<a href="#TOC">&#10548;</a>
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 <a name="S04"></a>
 #### 4. The Kolmogorov axioms of probability
@@ -99,7 +101,7 @@ Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</s
 3. To each set F<sub>i</sub> in F, a non-negative real number P(F<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
 4. P(E) equals 1.
 5. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
-6.
+6. If F<sub>1</sub> &#8839; F<sub>2</sub> &#8839; ... is a decreasing sequence of events from F with &#8898;<sub>i = 1</sub> F<sub>i</sub> = &#8709;, then ...
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
@@ -120,6 +122,8 @@ Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</s
 * John Mount (2020, September 19). Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told [Blog post]. [&rarr;](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told)
 * Kolmogorov, A. N. (2018). *Foundations of the Theory of Probability* (N. Morrison, Trans.; 2nd edition). Dover. (Original work published 1933).[&rarr;](https://store.doverpublications.com/0486821595.html)
 
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
+
 <a name="S02_P02"></a>
 ### 4. Notation for random variables and probability
 
@@ -137,7 +141,7 @@ P(X &#x2264; x),
 
 which denotes the probability that a random variable will be less than or equal to an observed value x.
 
-<a href="#TOC">&#10548;</a>
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 #### 5. Types of probability
 
@@ -166,8 +170,13 @@ This type of probability is part of the basis for Bayesian statistics, which has
 
 *Note: These types of probabilities overlap - they are not mutually exclusive!*
 
-<a href="#TOC">&#10548;</a>
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 [Return to sections](C00_P002_Chapters.md)
 
+<a name="END"></a>
+Return to:
+[Foundations](C01_P000_Foundations.md);
+[Sections](C00_P002_Chapters.md);
+[Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
 
