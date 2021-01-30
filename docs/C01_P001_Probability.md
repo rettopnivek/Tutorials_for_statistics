@@ -88,6 +88,8 @@ To describe how sets do or do not overlap, four useful concepts are:
 <a name="S04"></a>
 #### 4. The Kolmogorov axioms of probability
 
+**SECTION UNDER CONSTRUCTION**
+
 Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told ](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told), we have two major questions regarding probabilities:
 
 1. **What do probabilities mean?**
@@ -134,6 +136,8 @@ Modern textbooks typically summarize Kolmogorov's 6 axioms down to 3:
 <a name="S05"></a>
 #### 5. Notation for random variables and probability
 
+**SECTION UNDER CONSTRUCTION**
+
 The typical notation for a random variable is a capital letter, like X or Y. A distinction is made between a random variable and its observed value, the latter of which is represented by lower-case letters like x or y. So we can write:
 
 X = x,
@@ -152,6 +156,8 @@ which denotes the probability that a random variable will be less than or equal 
 
 <a name="S06"></a>
 #### 6. Interpreting probabilities
+
+**SECTION UNDER CONSTRUCTION**
 
 Recall our two major questions regarding probability:
 
