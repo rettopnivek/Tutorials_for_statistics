@@ -97,14 +97,14 @@ Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Ax
 
 Kolmogorov (1933), relying on set theory, laid out **6 axioms** (propositions to be taken as true) to attempt to answer *question 2*. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
 
-Let &Omega; (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let F be a set of subsets of &Omega;, where the elements of F are called *random events*. Then...
+Let &Omega; (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let &#120021; be a set of subsets of &Omega;, where the elements of &#120021; are called *random events*. Then...
 
-1. F is a *field of sets* \[now known as a **set-algebra**\].
-2. F contains &Omega;.
-3. To each set F<sub>i</sub> in F, a non-negative real number P(F<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
+1. &#120021; is a *field of sets* \[now known as a **set-algebra**\].
+2. &#120021; contains &Omega;.
+3. To each set E<sub>i</sub> in &#120021;, a non-negative real number P(E<sub>i</sub>) is assigned. The number P(E<sub>i</sub>) is called the probability of event E<sub>i</sub>.
 4. P(&Omega;) equals 1.
-5. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
-6. If F<sub>1</sub> &#8839; F<sub>2</sub> &#8839; ... is a countably infinite decreasing sequence of events from F with &#8898;<sup>&#8734;</sup><sub>i = 1</sub> F<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( F<sub>i</sub> ) = 0.
+5. If set E<sub>i</sub> and E<sub>j</sub> have no element in common (E<sub>i</sub> &cap; E<sub>j</sub> = &empty;), then P(E<sub>i</sub> &cup; E<sub>j</sub>) = P(E<sub>i</sub>) + P(E<sub>j</sub>).
+6. If E<sub>1</sub> &#8839; E<sub>2</sub> &#8839; ... is a countably infinite decreasing sequence of events from &#120021; with &#8898;<sup>&#8734;</sup><sub>i = 1</sub> E<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( E<sub>i</sub> ) = 0.
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
