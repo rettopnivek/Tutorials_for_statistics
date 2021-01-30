@@ -54,7 +54,7 @@ Set theory provides several fundamental tools that can be used to describe rando
 
 * **Set**: A collection of objects (called **elements** or **members**) regarded as a single object.
      * The sides of a die (1 to 6) are an example of a set.
-     * A specific side (i.e., the side labeled '1') is an element/member of the set.
+     * A specific side (i.e., the side labeled "1") is an element/member of the set.
 
 Consider the set &Omega; = \{ 1, 2, 3, 4, 5, 6 \}. There are several **operators** we can use to indicate whether elements are in a set or not:
 * 1 &isin; &Omega; - the number 1 is an elment of the the set &Omega;.
@@ -108,8 +108,8 @@ Let &Omega; (the *sample space*) be a collection of elements e<sub>1</sub>, e<su
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
-- The *field of sets*, or a **set-algebra**, indicates that if sets F<sub>i</sub> and F<sub>j</sub> are in F, then F<sub>i</sub> &cup; F<sub>j</sub>, F<sub>i</sub> &cap; F<sub>j</sub>, and the set differences F<sub>i</sub> &cap; F<sub>j</sub><sup>c</sup> and F<sup></sup>&#8734;<sub>i</sub><sup>c</sup> &cap; F<sub>j</sub> are also all in F.
-    - In other words, a set-algebra is **closed under the boolean operations complement, union, and intersection**.
+- The *field of sets*, or a **set-algebra**, indicates that if sets E<sub>i</sub> and E<sub>j</sub> are in &#120021;, then E<sub>i</sub> &cup; E<sub>j</sub>, E<sub>i</sub> &cap; E<sub>j</sub>, and the set differences E<sub>i</sub> &cap; E<sub>j</sub><sup>c</sup> and E<sub>i</sub><sup>c</sup> &cap; F<sub>j</sub> are also all in &#120021;.
+- In other words, a set-algebra is **closed under the boolean operations complement, union, and intersection**.
 
 **Axioms 3 - 5**: These are the *key axioms that define probability*. These axioms (or variants thereof) are what you will typically see reported in textbooks and introductory statistics courses. Several useful collaries can be derived from them:
 
