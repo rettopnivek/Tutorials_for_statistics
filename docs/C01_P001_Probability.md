@@ -101,7 +101,7 @@ Let E (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</s
 3. To each set F<sub>i</sub> in F, a non-negative real number P(F<sub>i</sub>) is assigned. The number P(F<sub>i</sub>) is called the probability of event F<sub>i</sub>.
 4. P(E) equals 1.
 5. If set F<sub>i</sub> and F<sub>j</sub> have no element in common (F<sub>i</sub> &cap; F<sub>j</sub> = &empty;), then P(F<sub>i</sub> &cup; F<sub>j</sub>) = P(F<sub>i</sub>) + P(F<sub>j</sub>).
-6. If F<sub>1</sub> &#8839; F<sub>2</sub> &#8839; ... is a decreasing sequence of events from F with &#8898;<sup>&#8734;</sup><sub>i = 1</sub> F<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( F<sub>i</sub> ) = 0.
+6. If F<sub>1</sub> &#8839; F<sub>2</sub> &#8839; ... is a countably infinite decreasing sequence of events from F with &#8898;<span><sup>&#8734;</sup><sub>i = 1</sub></span> F<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( F<sub>i</sub> ) = 0.
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
