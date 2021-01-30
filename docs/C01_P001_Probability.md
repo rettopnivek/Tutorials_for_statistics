@@ -121,7 +121,7 @@ Modern textbooks typically summarize Kolmogorov's 6 axioms down to 3:
 
 1. The probability of an event E is a non-negative real number: P(E) &#8805; 0 and P(E) &#8712; &#8477;.
 2. The probability of at least one event occuring is 1: P(F) = 1.
-3. Countable additivity (or &sigma;-additivity): For all countable collections of pairwise disjoint sets in F: P( &cup;<sup>&#8734;</sup><sub>i = 1</sub> ) = &sum;<sup>&#8734;</sup><sub>i = 1</sub> P( E<sub>i</sub> ).
+3. Countable additivity (or &sigma;-additivity): For all countable collections of pairwise disjoint sets in F: P( &cup;<sup>&#8734;</sup><sub>i = 1</sub> E<sub>i</sub>) = &sum;<sup>&#8734;</sup><sub>i = 1</sub> P( E<sub>i</sub> ).
 
 ##### References:
 
@@ -177,8 +177,6 @@ This type of probability is part of the basis for Bayesian statistics, which has
 *Note: These types of probabilities overlap - they are not mutually exclusive!*
 
 <a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
-
-[Return to sections](C00_P002_Chapters.md)
 
 <a name="END"></a>
 Return to:
