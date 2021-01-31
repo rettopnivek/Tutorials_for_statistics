@@ -4,7 +4,6 @@ Introduction
 
 <a name="TOC"></a>
 ### Table of contents
-1. Sections
 1. <a href="#S01">Section 1</a>
 2. <a href="#S02">Section 2</a>
 
