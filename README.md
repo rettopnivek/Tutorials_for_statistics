@@ -6,7 +6,7 @@ This website provides a series of tutorials and FAQs for statistics, giving help
 
 ### Sections
 
-* [Probability](C01_P000_Probability.md)
+* [Probability](docs/C01_P000_Probability.md)
 * P-values
 * Bayesian approach
 * Simple comparisons
