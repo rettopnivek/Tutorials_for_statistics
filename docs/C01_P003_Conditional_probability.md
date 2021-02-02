@@ -1,4 +1,4 @@
-## Title
+## Conditional probability
 
 Introduction
 
@@ -45,6 +45,6 @@ Content.
 
 <a name="END"></a>
 Return to:
-Chapter;
+[Probability](C01_P000_Probability.md);
 [Sections](C00_P002_Chapters.md);
 [Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
