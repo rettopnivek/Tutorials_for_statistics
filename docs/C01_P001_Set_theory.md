@@ -79,17 +79,17 @@ Furthermore, sets A and B are **mutually exclusive** or **disjoint** when no ele
 
 With care, one can treat set operations in a similar manner to addition or multiplication. For example, given any three events, A, B, and C, which are subsets of sample space &Omega;, we have:
 * **Commutativity**:
-     * A &cup; B = B &cup A
-     * A &cap; B = B &cap A
+     * A &cup; B = B &cup; A
+     * A &cap; B = B &cap; A
 * **Associativity**:
-     * A &cup; (B &cup C) = (A &cup B) &cup C
-     * A &cap; (B &cap C) = (A &cap B) &cap C
+     * A &cup; (B &cup; C) = (A &cup; B) &cup; C
+     * A &cap; (B &cap; C) = (A &cap; B) &cap; C
 * **Distributive Laws**:
-     * A &cap; (B &cup C) = (A &cap B) &cup (A &cap C)
-     * A &cup; (B &cap C) = (A &cup B) &cap (A &cup C)
+     * A &cap; (B &cup; C) = (A &cap; B) &cup; (A &cap; C)
+     * A &cup; (B &cap; C) = (A &cup; B) &cap; (A &cup; C)
 * **DeMorgan's Laws**:
-     * (A &cup; B)<sup>c</sup> = A<sup>c</sup> &cap B<sup>c</sup>
-     * (A &cap; B)<sup>c</sup> = A<sup>c</sup> &cup B<sup>c</sup>
+     * (A &cup; B)<sup>c</sup> = A<sup>c</sup> &cap; B<sup>c</sup>
+     * (A &cap; B)<sup>c</sup> = A<sup>c</sup> &cup; B<sup>c</sup>
 
 ##### References:
 
