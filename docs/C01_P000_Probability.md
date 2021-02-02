@@ -9,7 +9,7 @@ Forthcoming
 * [Conditional probability](C01_P003_Conditional_probability.md)
 * [Combinatorics](C01_P004_Combinatorics.md)
 * [Probability distributions](C01_P005_Probability_distributions.md)
-* [Useful distributions](C01_P005_Probability_distributions.md)
+* [Useful distributions](C01_P006_Useful_distributions.md)
 
 Return to:
 [Sections](C00_P002_Chapters.md);
