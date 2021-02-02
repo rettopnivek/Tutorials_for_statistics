@@ -43,7 +43,7 @@ f(x) = *d* F(x) / *d*x.
 
 As such, one can also compute the cumulative distribution function by taking the integral of the probability density function:
 
-F(x) = &#8747;<sub>-&#8734;</sub><sup>z</sup> f(x) *d*x.
+F(x) = &#8747;<sup>x</sup><sub>-&#8734;</sub> f(x) *d*x.
 
 ```R
 # Example R code
