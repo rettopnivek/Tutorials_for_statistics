@@ -202,5 +202,6 @@ This type of probability is part of the basis for Bayesian statistics, which has
 Return to:
 [Foundations](C01_P000_Foundations.md);
 [Sections](C00_P002_Chapters.md);
+[Index](I0_P000_Main_index.md ); 
 [Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
 
