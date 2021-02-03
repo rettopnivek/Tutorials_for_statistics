@@ -77,7 +77,7 @@ Furthermore, sets A and B are **mutually exclusive** or **disjoint** when no ele
 
 <img src="C01_P001_I002.png" alt="Figure 1.2" width="500" height="500"/>
 
-<a name="S01_R01"></a>
+<a name="S03_R01"></a>
 With care, one can treat set operations in a similar manner to addition or multiplication. For example, given any three events, A, B, and C, which are subsets of sample space &Omega;, we have:
 * **Commutativity**:
      * A &cup; B = B &cup; A
