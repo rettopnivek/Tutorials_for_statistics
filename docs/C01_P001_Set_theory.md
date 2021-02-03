@@ -129,4 +129,5 @@ setdiff( S, B ) # Returns: 2 4 6
 Return to:
 [Probability](C01_P000_Probability.md);
 [Sections](C00_P002_Chapters.md);
+[Index](I0_P000_Main_index.md ); 
 [Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
