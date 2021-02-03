@@ -104,14 +104,14 @@ With care, one can treat set operations in a similar manner to addition or multi
 The operations of union and intersection can be extended to a collection of sets, up to an infinite number of sets:
 
 $$
-\cup_{i=1}^{\infty} E_i = \{ x \in \Omega : x \in E_i \text{for some i} \}.
+\cup_{i=1}^{\infty} E_i = \{ x \in \Omega : x \in E_i \text{ for some i} \}.
 $$
 
 $$
-\cap_{i=1}^{\infty} E_i = \{ x \in \Omega : x \in E_i \text{for all i} \}.
+\cap_{i=1}^{\infty} E_i = \{ x \in \Omega : x \in E_i \text{ for all i} \}.
 $$
 
-The collection of events E_1, E_2, . . ., are **pairwise disjoint** if A<sub>i</sub> &cap; A<sub>j</sub> = &empty; for all i &#8800; j.
+The collection of events E<sub>1</sub>, E<sub>2</sub>, . . ., are **pairwise disjoint** if E<sub>i</sub> &cap; E<sub>j</sub> = &empty; for all i &#8800; j.
 
 ##### References:
 
