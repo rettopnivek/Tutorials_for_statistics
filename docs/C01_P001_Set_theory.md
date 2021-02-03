@@ -1,3 +1,4 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ## Set theory
 
 Statistics relies extensively on probability theory. In turn, probability theory relies heavily upon set theory; an understanding of probability therefore requires knowledge of several key concepts from set theory.
@@ -40,16 +41,22 @@ Set theory provides a formal mathematical way of describing a collection of elem
      * A specific side (i.e., the side labeled "1") is an element/member of the set
 
 Consider the set &Omega; = \{ 1, 2, 3, 4, 5, 6 \}. There are several **operators** we can use to indicate whether elements are in a set or not:
-* 1 &isin; &Omega; - the number 1 is an elment of the the set &Omega;.
-* 7 &notin; &Omega; - the number 7 is not an elment of the the set &Omega;.
+* 1 &isin; &Omega; - the number 1 is an element of the the set &Omega;.
+* 7 &notin; &Omega; - the number 7 is not an element of the the set &Omega;.
 * \{ 1, 3, 5 \} &sub; &Omega; - the set of numbers 1, 3, and 5 form a **subset** of the larger set &Omega;.
 * \{ 1, 2, 3, 4, 5, 6 \} &#8838; &Omega; - the set of numbers from 1 to 6 are a subset of or equal to the set &Omega;.
 
 There are several special sets worthy of note:
-* The **empty set**, or &empty; - a set with no elments or members.
+* The **empty set**, or &empty; - a set with no elments or members (the empty set is any event that cannot occur).
 * **Real numbers**, or &#8477; - the set of all rational or irrational (e.g., ) numbers, either positive, negative, or zero.
 * **Natural numbers**, or &#8469; - the set of whole numbers (either starting from 0 or 1, depending on the field).
 * **Integers**, or &#8484; - the set with whole numbers, negative whole numbers, and zero.
+
+Sets can be categorized as being...
+* **Finite**; sets with a finite number of elements.
+* **Infinite**; sets with an infinite number of elements. Furthermore, an infinite set can be:
+  * **Countable** (when there is a one-to-one correspondence between elements of the set and the set of natural numbers &#8469;).
+  * **Uncountable** (sets that are neither finite nor countable).
 
 The sample space, then, is a type of set, and an event is any subset of the sample space, allowing us to use all of the tools of set theory to describe the outcomes for the experiment of interest.
 
@@ -91,6 +98,17 @@ With care, one can treat set operations in a similar manner to addition or multi
 * **DeMorgan's Laws**:
      * (A &cup; B)<sup>c</sup> = A<sup>c</sup> &cap; B<sup>c</sup>
      * (A &cap; B)<sup>c</sup> = A<sup>c</sup> &cup; B<sup>c</sup>
+
+The operations of union and intersection can be extended to infinite collections of sets. Let E<sub>1</sub>, E<sub>2</sub>, E<sub>3</sub>, ... be a collection of sets defined on a sample space &Omega; - then...
+
+$$
+\cup_{i=1}^{\infty} E_i = x.
+$$
+
+
+$$
+\cap_{i=1}^{\infty} E_i = x.
+$$
 
 ##### References:
 
