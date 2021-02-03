@@ -134,7 +134,7 @@ is.element( 6, S ) # Returns: FALSE
 # Elementary set operations
 union( A, B ) # Returns: 1 2 3 5
 intersect( A, B ) # Returns: 1 3
-# Complement of A
+# Complement of 
 setdiff( S, A ) # Returns: 4 5 6
 # Complement of B
 setdiff( S, B ) # Returns: 2 4 6
@@ -149,5 +149,5 @@ setdiff( S, B ) # Returns: 2 4 6
 Return to:
 [Probability](C01_P000_Probability.md);
 [Sections](C00_P002_Chapters.md);
-[Index](I0_P000_Main_index.md ); 
+[Index](C0_P000_Alphabetical.md); 
 [Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
