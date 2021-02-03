@@ -120,6 +120,10 @@ setdiff( S, B ) # Returns: 2 4 6
 
 <a href="#TOC">&#129145;</a>
 
+##### Coming soon
+* Definition of pairwise disjoint
+* Union/intersection over sequence of subsets
+
 <a name="END"></a>
 Return to:
 [Probability](C01_P000_Probability.md);
