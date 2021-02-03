@@ -10,4 +10,9 @@ These sections detail several foundational concepts and notation for statistical
 * [Combinatorics](C01_P004_Combinatorics.md)
 * [Expected values](C01_P005_Expected_values.md)
 
-[Return to sections](C00_P002_Chapters.md)
+Return to:
+[Sections](C00_P002_Chapters.md);
+[Index](I0_P000_Main_index.md ); 
+[Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
+
+
