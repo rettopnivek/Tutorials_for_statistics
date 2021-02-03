@@ -131,7 +131,7 @@
 <a name="LP"></a>
 #### P)
 
-* Probability
+* <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P000_Probability.html">Probability</a>
 * Population
   * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">Set theory</a>
 
