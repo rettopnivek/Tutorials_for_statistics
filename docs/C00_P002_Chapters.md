@@ -10,4 +10,7 @@
 * Hierarchical/Multi-level modeling
 * Advanced techniques
 
-[Return to title page](https://rettopnivek.github.io/Tutorials_for_statistics/)
+Return to:
+[Index](I0_P000_Main_index.md ); 
+[Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
+
