@@ -8,7 +8,8 @@
 <a name="LA"></a>
 #### A)
 
-* Letter A
+* Associativity
+  * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03_R01">Set theory</a>
 
 <a href="#TOC">&#129145;</a>
 
@@ -24,6 +25,8 @@
 <a name="LC"></a>
 #### C)
 
+* Commutativity
+  * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03_R01">Set theory</a>
 * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03">Complement</a>
 
 <a href="#TOC">&#129145;</a>
@@ -32,8 +35,11 @@
 <a name="LD"></a>
 #### D)
 
-* Disjoint
+* DeMorgan's laws
+  * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03_R01">Set theory</a>
 * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03">Disjoint</a>
+* Distributive laws
+  * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03_R01">Set theory</a>
 
 <a href="#TOC">&#129145;</a>
 
