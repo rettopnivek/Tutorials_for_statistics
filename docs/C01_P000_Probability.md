@@ -13,5 +13,6 @@ Forthcoming
 
 Return to:
 [Sections](C00_P002_Chapters.md);
+[Index](I0_P000_Main_index.md ); 
 [Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
 
