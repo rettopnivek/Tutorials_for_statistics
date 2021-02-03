@@ -1,4 +1,5 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 ## Set theory
 
 Statistics relies extensively on probability theory. In turn, probability theory relies heavily upon set theory; an understanding of probability therefore requires knowledge of several key concepts from set theory.
