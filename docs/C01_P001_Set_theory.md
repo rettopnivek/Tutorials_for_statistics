@@ -99,11 +99,18 @@ With care, one can treat set operations in a similar manner to addition or multi
      * (A &cup; B)<sup>c</sup> = A<sup>c</sup> &cap; B<sup>c</sup>
      * (A &cap; B)<sup>c</sup> = A<sup>c</sup> &cup; B<sup>c</sup>
 
-The operations of union can be extended to collection of sets - the union of n sets E<sub>1</sub>, . . . E<sub>n</sub> is the set that contains all outcomes belonging to at least one of the n sets:
+<a name="S03_R02"></a>
+The operations of union and intersection can be extended to a collection of sets, up to an infinite number of sets:
 
 $$
-E_1 \cup E_2 \cup \ldots \cup E_n = \cup_{i=1}^{\infty} E_i.
+\cup_{i=1}^{\infty} E_i = \lbrace x \in &Omega; : x \in E_i for some i \rbrace.
 $$
+
+$$
+\cap_{i=1}^{\infty} E_i = \lbrace x \in &Omega; : x \in E_i for all i \rbrace.
+$$
+
+The collection of events E_1, E_2, . . ., are **pairwise disjoint** if A<sub>i</sub> &cap; A<sub>j</sub> = &empty; for all i &#8800; j.
 
 ##### References:
 
@@ -135,8 +142,7 @@ setdiff( S, B ) # Returns: 2 4 6
 <a href="#TOC">&#129145;</a>
 
 ##### Coming soon
-* Definition of pairwise disjoint
-* Union/intersection over sequence of subsets
+* Check usage of events, subsets, and sets
 
 <a name="END"></a>
 Return to:
