@@ -47,4 +47,5 @@ Content.
 Return to:
 Chapter;
 [Sections](C00_P002_Chapters.md);
+[Index](C0_P000_Alphabetical.md); 
 [Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
