@@ -99,15 +99,10 @@ With care, one can treat set operations in a similar manner to addition or multi
      * (A &cup; B)<sup>c</sup> = A<sup>c</sup> &cap; B<sup>c</sup>
      * (A &cap; B)<sup>c</sup> = A<sup>c</sup> &cup; B<sup>c</sup>
 
-The operations of union and intersection can be extended to infinite collections of sets. Let E<sub>1</sub>, E<sub>2</sub>, E<sub>3</sub>, ... be a collection of sets defined on a sample space &Omega; - then...
+The operations of union can be extended to collection of sets - the union of n sets E<sub>1</sub>, . . . E<sub>n</sub> is the set that contains all outcomes belonging to at least one of the n sets:
 
 $$
-\cup_{i=1}^{\infty} E_i = x.
-$$
-
-
-$$
-\cap_{i=1}^{\infty} E_i = x.
+E_1 \cup E_2 \cup \ldots \cup E_n = \cup_{i=1}^{\infty} E_i.
 $$
 
 ##### References:
