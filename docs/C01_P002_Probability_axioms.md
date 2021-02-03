@@ -1,6 +1,12 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ## Probability axioms
 
-Introduction
+Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told ](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told), we have two major questions regarding probabilities:
+
+1. **What do probabilities mean?**
+2. **What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?**
+
+Kolmogorov (1933), relying on [set theory](C01_P001_Set_theory.md), laid out **6 axioms** (propositions to be taken as true) to attempt to answer *question 2*. In modern textbooks of probability, these 6 axioms have been shorten to 3, and provide a mathematical definition of probability.
 
 <a name="TOC"></a>
 ### Table of contents
@@ -10,14 +16,9 @@ Introduction
 <a href="#END">&#129147;</a>
 
 <a name="S01"></a>
-#### 1. Kolmogorov's axioms of probability
+#### 1. Kolmogorov's origional probability axioms
 
-Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told ](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told), we have two major questions regarding probabilities:
-
-1. **What do probabilities mean?**
-2. **What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?**
-
-Kolmogorov (1933), relying on set theory, laid out **6 axioms** (propositions to be taken as true) to attempt to answer *question 2*. As per a 2018 translation of Kolmogorov (1933), with slight notational changes:
+Below are the original 6 axioms, as per a 2018 translation of Kolmogorov (1933), with slight notational changes:
 
 Let &Omega; (the *sample space*) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let &#120021; be a set of subsets of &Omega;, where the elements of &#120021; are called *random events*. Then...
 
@@ -52,9 +53,23 @@ Let &Omega; (the *sample space*) be a collection of elements e<sub>1</sub>, e<su
 <a name="S02"></a>
 #### 1. Current axiomatic foundations
 
-1. The probability of an event E is a non-negative real number: P(E) &#8805; 0 and P(E) &#8712; &#8477;.
-2. The probability of at least one event occuring is 1: P(F) = 1.
-3. Countable additivity (or &sigma;-additivity): For all countable collections of pairwise disjoint sets in F: P( &cup;<sup>&#8734;</sup><sub>i = 1</sub> E<sub>i</sub>) = &sum;<sup>&#8734;</sup><sub>i = 1</sub> P( E<sub>i</sub> ).
+For a given experiment we want to assign to each event E in the sample space &Omega; a number P(E) that indicates the probability that E will occur. Modern textbooks have simplified Kolmogorov's 6 axioms down to 3:
+
+* For every event E, P(E) &geq; 0.
+  * The probability of every event must be non-negative
+* P(&Omega;) = 1.
+  * If an event is certain to occur, then the probability of that event is 1
+* Forthcoming
+
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
+
+*Note: Kolmogorov.*
 
 ```R
 # Example R code
