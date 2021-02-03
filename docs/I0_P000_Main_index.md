@@ -7,31 +7,31 @@
 <a href="#LD">D</a>;
 <a href="#LE">E</a>;
 <a href="#LF">F</a>;
-<a href="#LG">A</a>;
-<a href="#LH">B</a>;
-<a href="#LI">C</a>;
-<a href="#LJ">D</a>;
-<a href="#LK">E</a>;
-<a href="#LL">F</a>;
-<a href="#LM">A</a>;
-<a href="#LN">B</a>;
-<a href="#LO">C</a>;
-<a href="#LP">D</a>;
-<a href="#LQ">E</a>;
-<a href="#LR">F</a>;
-<a href="#LS">A</a>;
-<a href="#LT">B</a>;
-<a href="#LU">C</a>;
-<a href="#LV">D</a>;
-<a href="#LW">E</a>;
-<a href="#LX">F</a>;
-<a href="#LY">E</a>;
-<a href="#LZ">F</a>;
+<a href="#LG">G</a>;
+<a href="#LH">H</a>;
+<a href="#LI">I</a>;
+<a href="#LJ">J</a>;
+<a href="#LK">K</a>;
+<a href="#LL">L</a>;
+<a href="#LM">M</a>;
+<a href="#LN">N</a>;
+<a href="#LO">O</a>;
+<a href="#LP">P</a>;
+<a href="#LQ">Q</a>;
+<a href="#LR">R</a>;
+<a href="#LS">S</a>;
+<a href="#LT">T</a>;
+<a href="#LU">I</a>;
+<a href="#LV">V</a>;
+<a href="#LW">W</a>;
+<a href="#LX">X</a>;
+<a href="#LY">Y</a>;
+<a href="#LZ">Z</a>;
 
 <a name="LC"></a>
 #### C)
 
-* Complement
+* <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03">Complement</a>
 
 <a href="#TOC">&#129145;</a>
 
