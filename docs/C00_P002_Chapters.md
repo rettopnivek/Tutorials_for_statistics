@@ -11,6 +11,6 @@
 * Advanced techniques
 
 Return to:
-[Index](I0_P000_Main_index.md ); 
+[Index](C0_P000_Alphabetical.md); 
 [Home page](https://rettopnivek.github.io/Tutorials_for_statistics/)
 
