@@ -12,9 +12,9 @@ Introduction
 <a name="S01"></a>
 #### 1. The cumulative distribution function
 
-A *complete probabilstic description* of a random variable **X** for a single observation (or series of independent observations) is the probability that **X** is less than or equal to a real value x. or F(x) = P(**X** &leq; x). One can write this as a function, known as the *cumulative distribution function* (**CDF**):
+A *complete probabilstic description* of a random variable **X** for a single observation (or series of independent observations) is the probability that **X** is less than or equal to a real value x. or F(x) = P(**X** &#8804; x). One can write this as a function, known as the *cumulative distribution function* (**CDF**):
 
-F(x) = F(**X** &leq; x).
+F(x) = F(**X** &#8804; x).
 
 A function must meet 3 requirements to be a **CDF**:
 
