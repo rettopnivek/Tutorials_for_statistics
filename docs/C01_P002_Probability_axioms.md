@@ -55,10 +55,10 @@ Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics
 
 Standard textbooks on probability reformulate the axioms proposed by Kolmogov and lay out the axiomatic foundations in two steps.
 
-* **&sigma;-algebra** or **Borel field** (&Beta;): A collection of subsets of a sample space &Omega; with the following 3 properties:
-  * &empty; &in; &Beta; (the empty set is an element of &Beta;).
-  * If E &in; &Beta; then E<sup>c</sub> &in; &Beta; (&Beta; is closed under complementation).
-  * If E<sub>1</sub>, E<sub>2</sub>, ... &in; &Beta; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> &in; &Beta; (&Beta; is closed under countable unions).
+* **&sigma;-algebra** or **Borel field** (&#5104;): A collection of subsets of a sample space &Omega; with the following 3 properties:
+  * &empty; &in; &#5104; (the empty set is an element of &#5104;).
+  * If E &in; &#5104; then E<sup>c</sub> &in; &#5104; (&#5104; is closed under complementation).
+  * If E<sub>1</sub>, E<sub>2</sub>, ... &in; &#5104; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> &in; &#5104; (&#5104; is closed under countable unions).
 
 
 ```R
