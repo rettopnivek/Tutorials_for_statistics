@@ -2,7 +2,7 @@
 
 ## Set theory
 
-Statistics relies extensively on probability theory. In turn, probability theory relies heavily upon set theory; an understanding of probability therefore requires knowledge of several key concepts from set theory.
+Statistics relies extensively on probability theory. In turn, probability theory relies extensively upon set theory - indeed, the most commonly accepted [axiomatic foundations of probability](C01_P002_Probability_axioms.md) are defined using set theory.
 
 <a name="TOC"></a>
 ### Table of contents
