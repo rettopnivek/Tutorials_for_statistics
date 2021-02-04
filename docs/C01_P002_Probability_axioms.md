@@ -6,7 +6,9 @@ Paraphrasing from an excellent blog post by John Mount titled [Kolmogorov’s Ax
 1. What do probabilities mean?
 2. What kind of calculations (e.g., addition, multiplication) can we perform on/with probabilities?
 
-Kolmogorov (1933), relying on [set theory](C01_P001_Set_theory.md), laid out **6 axioms** (propositions to be taken as true) to attempt to answer *question 2*. Modern textbooks of probability focus on the final 3 axioms, providing a mathematical definition of probability.
+An **axiomatic definition of probability** (axioms are propositions to be taken as true) allows us to answer *question 2*. The most well-known axiomatic approach is based on Kolmogorov (1933), who laid out 6 axioms based on [set theory](C01_P001_Set_theory.md). The final 3 axioms, with some reformulation, provide the core definition of probability reported in modern textbooks today.
+
+*Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
 
 <a name="TOC"></a>
 ### Table of contents
@@ -18,7 +20,7 @@ Kolmogorov (1933), relying on [set theory](C01_P001_Set_theory.md), laid out **6
 <a name="S01"></a>
 #### 1. The Kolmogorov axioms
 
-Kolmogorov (1933) set forth 6 axioms to define a probability. Based on a 2018 translation of his work, with slight notational changes:
+Kolmogorov (1933) set forth 6 axioms to define probabilities. Based on a 2018 translation of his work, with slight notational changes:
 
 Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">sample space</a>) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let &#120021; be a set of subsets of &Omega;, where the elements of &#120021; are called *random events*. Then...
 
@@ -28,18 +30,6 @@ Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics
 4. P(&Omega;) equals 1.
 5. If set E<sub>i</sub> and E<sub>j</sub> have no element in common (E<sub>i</sub> &cap; E<sub>j</sub> = &empty;), then P(E<sub>i</sub> &cup; E<sub>j</sub>) = P(E<sub>i</sub>) + P(E<sub>j</sub>).
 6. If E<sub>1</sub> &#8839; E<sub>2</sub> &#8839; ... is a countably infinite decreasing sequence of events from &#120021; with &#8898;<sup>&#8734;</sup><sub>i = 1</sub> E<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( E<sub>i</sub> ) = 0.
-
-*Note: Others have laid out their own formulations to address question 2, but Kolmogorov's axioms are the most well-known and successful.*
-
-##### References:
-
-* John Mount (2020, September 19). Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told [Blog post]. [&rarr;](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told)
-* Kolmogorov, A. N. (2018). *Foundations of the Theory of Probability* (N. Morrison, Trans.; 2nd edition). Dover. (Original work published 1933).[&rarr;](https://store.doverpublications.com/0486821595.html)
-
-<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
-
-<a name="S02"></a>
-#### 2. Current axiomatic foundations
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
@@ -52,6 +42,24 @@ Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics
 - **Inclusion-Exclusion** - For two arbitrary events A and B, P( A &cup; B ) = P(A) + P(B) - P( A &cap; B).
 
 **Axiom 6**: This axiom ensures the definition of probability works both for finite and continuous variables.
+
+##### References:
+
+* John Mount (2020, September 19). Kolmogorov’s Axioms of Probability: Even Smarter Than You Have Been Told [Blog post]. [&rarr;](https://win-vector.com/2020/09/19/kolmogorovs-axioms-of-probability-even-smarter-than-you-have-been-told)
+* Kolmogorov, A. N. (2018). *Foundations of the Theory of Probability* (N. Morrison, Trans.; 2nd edition). Dover. (Original work published 1933).[&rarr;](https://store.doverpublications.com/0486821595.html)
+
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
+
+<a name="S02"></a>
+#### 2. Current axiomatic foundations
+
+Standard textbooks on probability reformulate the axioms proposed by Kolmogov and lay out the axiomatic foundations in two steps.
+
+* **&sigma;-algebra** or **Borel field** (&Beta;): A collection of subsets of a sample space &Omega; with the following 3 properties:
+  * &empty; &in; &Beta; (the empty set is an element of &Beta;).
+  * If E &in; &Beta; then E<sup>c</sub> &in; &Beta; (&Beta; is closed under complementation).
+  * If E<sub>1</sub>, E<sub>2</sub>, ... &in; &Beta; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> &in; &Beta; (&Beta; is closed under countable unions).
+
 
 ```R
 # Example R code
