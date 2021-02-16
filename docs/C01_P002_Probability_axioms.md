@@ -58,7 +58,7 @@ Standard textbooks on probability reformulate the axioms proposed by Kolmogov an
 * **&sigma;-algebra** or **Borel field** (&#120017;): A collection of subsets of a sample space &Omega; with the following 3 properties:
   * &empty; &#8712; &#120017; (the empty set is an element of &#120017;).
   * If E &#8712; &#120017; then E<sup>c</sup> &#8712; &#120017; (&#120017; is closed under complementation).
-  * If E<sub>1</sub>, E<sub>2</sub>, ... &#8712; &#120017; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> &#8712; &#120017; (&#120017; is closed under countable unions).
+  * If E<sub>1</sub>, E<sub>2</sub>, ... &#8712; &#120017; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> E<su>i</sub> &#8712; &#120017; (&#120017; is closed under countable unions).
 
 ```R
 # Example R code
