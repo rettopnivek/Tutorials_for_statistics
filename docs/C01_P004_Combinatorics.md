@@ -17,7 +17,7 @@ Introduction
 Assume an experiment (e.g., a dice roll, a coin flip, etc.):
 - has k parts (*k* &#8805; 2);
 - the i<sup>th</sup> part of the experiment can have n<sub>i</sub> outcomes;
-- all of the outcomes in each part can occur irrespective of what occurred in other parts.
+- all of the outcomes in each part can occur irrespective of what occurred in other parts (i.e., *sampling with replacement*).
 
 The total number of unique combinations of outcomes over parts is then:
 
