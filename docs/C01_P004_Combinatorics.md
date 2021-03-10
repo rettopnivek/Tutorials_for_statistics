@@ -1,28 +1,68 @@
-## Title
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+## Combinatorics
 
 Introduction
 
 <a name="TOC"></a>
 ### Table of contents
-1. <a href="#S01">Section 1</a>
+1. <a href="#S01">Multiplication rule</a>
 2. <a href="#S02">Section 2</a>
 
 <a href="#END">&#129147;</a>
 
 <a name="S01"></a>
-#### 1. Section 1
+#### 1. Multiplication rule
 
-Content.
+Assume an experiment (e.g., a dice roll, a coin flip, etc.):
+- has *k* parts (*k* &#8805; 2);
+- the *i*th part of the experiment can have *n*<sub>i</sub> outcomes;
+- all of the outcomes in each part can occur irrespective of what occurred in other parts.
+
+The total number of possible outcomes is then:
+
+$$\prod_{i=1}^k n_i $$.
+
+Using R, we can easily run a Monte Carlo simulation that demonstrates this. Consider rolling a 6-sided die 3 times:
 
 ```R
-# Example R code
-```
+# Function to simulate rolling a 6-sided die 3 times
+roll_dice_3_times <- function() {
+  # Sample space
+  S <- 1:6
+  # Simulate 3 rolls of die
+  output <- sample( S, size = 3, replace = T )
+  return( output )
+}
 
-*Note: Advanced content.*
+# Monte Carlo simulation of 10,000 rolls
+mc_sim <- sapply(
+  1:10000,
+  function(i) roll_dice_3_times()
+)
+
+# Convert column vectors with outcomes for 
+# each roll into single terms per iteration
+terms <- apply( mc_sim, 2, paste, collapse = ',')
+
+# Extract all unique combinations of outcomes
+unq <- unique( terms )
+
+# Total number of unique outcome combinations
+print( length( unq ) ) # 216
+
+# Using multiplication rule
+
+# 6 possible outcomes for each roll
+n <- c( 6, 6, 6 )
+
+# Product of number of outcomes for each part
+print( prod( n ) ) # 216
+```
 
 ##### References:
 
-* Reference &rarr;
+* DeGroot, M. H., & Schervish, M. J. (2012). *Probability and statistics* (4th ed.). Boston, MA: Addison-Wesley. [&rarr;](https://www.pearson.com/us/higher-education/product/De-Groot-Probability-and-Statistics-4th-Edition/9780321500465.html)
 
 <a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
