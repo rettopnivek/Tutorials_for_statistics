@@ -1,3 +1,4 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ## Regression to the mean
 
 Introduction
@@ -12,7 +13,13 @@ Introduction
 <a name="S01"></a>
 #### 1. Section 1
 
-Content.
+Statistical model:
+
+For individuals \( i = \{ i, ..., n \} \) and runs \( t = \{ 1, 2 \} \), let us assume the statistcal model for a hypothetical 1-mile run time is:
+
+$$run_{i,t} = \beta_0 + \eta_i + \epsilon_{i,t}$$,
+
+where \( \eta_i \sim N( 0, \sigma^{\eta} ) \) and \( \epsilon_{i,t} \sim N( 0, \sigma^{\epsilon} ) \).
 
 ```R
 # install.packages( 'dplyr' )
@@ -20,16 +27,6 @@ library( dplyr )
 
 # Fix RNG seed for reproducibility
 set.seed( 100 )
-
-# Statistical model
-
-# i = {1, ..., n}
-# t = {1,2}
-# run_{i,t} = B0 + eta_i + epsilon_{i,t}
-# eta_i ~ N( 0, sigma_eta )
-# epsilon_{i,t} ~ N( 0, sigma_epsilon)
-
-# Note no effect of intervention!
 
 B0 = 9 # Mean time to run a mile (minutes)
 sigma = 1 # Standard deviation
