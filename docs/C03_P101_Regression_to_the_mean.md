@@ -17,7 +17,7 @@ Statistical model:
 
 For individuals i = \{i, ..., n\} and runs t = \{1, 2 \}, let us assume the statistcal model for a hypothetical 1-mile run time is:
 
-$$run_{i,t} = \beta_0 + \eta_i + \epsilon_{i,t} \textrm{ where } \eta_i \sim N( 0, \sigma^{\eta} ) \textrm{ and } \epsilon_{i,t} \sim N( 0, \sigma^{\epsilon} ).$$
+$$\textrm{run}_{i,t} = \beta_0 + \eta_i + \epsilon_{i,t} \textrm{ where } \eta_i \sim N( 0, \sigma^{\eta} ) \textrm{ and } \epsilon_{i,t} \sim N( 0, \sigma^{\epsilon} ).$$
 
 ```R
 # install.packages( 'dplyr' )
