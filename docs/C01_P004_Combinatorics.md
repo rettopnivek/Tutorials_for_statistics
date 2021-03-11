@@ -41,8 +41,9 @@ mc_sim <- sapply(
   function(i) roll_dice_3_times()
 )
 
-# Convert column vectors with outcomes for 
-# each roll into single terms per iteration
+# Convert column vectors with separate outcomes
+# for each roll into character strings in order to
+# easily identify unique combinations
 terms <- apply( mc_sim, 2, paste, collapse = ',')
 
 # Extract all unique combinations of outcomes
