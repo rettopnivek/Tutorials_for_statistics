@@ -16,10 +16,10 @@ Introduction
 | --- | --- | --- |
 | Nominal | Determination of equality | Permutation group |
 |  |  | x' = f(x) |
-|  |  | f(x) &arr; any one-to-one substituion |
+|  |  | f(x) &rarr; any one-to-one substituion |
 | Ordinal | Determination of greater or less | Isotonic group |
 |  |  | x' = f(x) |
-|  |  | f(x) &arr; any monotonic increasing function |
+|  |  | f(x) &rarr; any monotonic increasing function |
 | Interval | Determination of equality of intervals or differences | General linear group |
 |  |  | x' = ax + b |
 | Ratio | Determination of equality of ratios | Similarity group |
