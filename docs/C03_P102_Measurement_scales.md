@@ -14,15 +14,10 @@ Introduction
 
 | Scale | Basic empirical operations | Mathematical group structure |
 | --- | --- | --- |
-| Nominal | Determination of equality | Permutation group <br> x' = f(x) |
-|  |  | f(x) &rarr; any one-to-one substituion |
-| Ordinal | Determination of greater or less | Isotonic group |
-|  |  | x' = f(x) |
-|  |  | f(x) &rarr; any monotonic increasing function |
-| Interval | Determination of equality of intervals or differences | General linear group |
-|  |  | x' = ax + b |
-| Ratio | Determination of equality of ratios | Similarity group |
-|  |  | x' = ax |
+| Nominal | Determination of equality | Permutation group <br> x' = f(x) <br> f(x) &rarr; any one-to-one substituion |
+| Ordinal | Determination of greater or less | Isotonic group <br> x' = f(x) <br> f(x) &rarr; any monotonic increasing function |
+| Interval | Determination of equality of intervals or differences | General linear group <br> x' = ax + b |
+| Ratio | Determination of equality of ratios | Similarity group <br> x' = xa |
 
 ```R
 # Example R code
