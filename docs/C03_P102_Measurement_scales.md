@@ -14,8 +14,7 @@ Introduction
 
 | Scale | Basic empirical operations | Mathematical group structure |
 | --- | --- | --- |
-| Nominal | Determination of equality | Permutation group |
-|  |  | x' = f(x) |
+| Nominal | Determination of equality | Permutation group <br> x' = f(x) |
 |  |  | f(x) &rarr; any one-to-one substituion |
 | Ordinal | Determination of greater or less | Isotonic group |
 |  |  | x' = f(x) |
