@@ -12,7 +12,17 @@ Introduction
 <a href="#END">&#129147;</a>
 
 <a name="S01"></a>
-#### 1. Multiplication rule
+#### 1. Concepts
+
+- Combination
+- Permutation
+- Unordered sample
+- Ordered sample
+- Sampling with replacement
+- Sampling without replacement
+
+<a name="S02"></a>
+#### 2. Multiplication rule
 
 Assume an experiment (e.g., a dice roll, a coin flip, etc.):
 - has k parts (*k* &#8805; 2);
@@ -68,7 +78,7 @@ print( prod( n ) ) # 216
 <a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 <a name="S02"></a>
-#### 1. Section 2
+#### 2. Permutations
 
 Content.
 
