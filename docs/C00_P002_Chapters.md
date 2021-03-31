@@ -4,10 +4,8 @@
 * Simple comparisons
 * Regression
 * Generalized linear models
-* P-values
-* P-hacking/Researcher degrees of freedom/Replication
-* Bayesian approach
 * Hierarchical/Multi-level modeling
+* Statistical frameworks
 * Advanced techniques
 
 Return to:
