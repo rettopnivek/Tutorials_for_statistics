@@ -6,14 +6,12 @@ This website provides a series of tutorials and FAQs for statistics, giving help
 
 ### Sections
 
-* [Probability](docs/C01_P000_Probability.md)
-* P-values
-* Bayesian approach
+* [Probability](doc/C01_P000_Probability.md)
 * Simple comparisons
 * Regression
 * Generalized linear models
 * Hierarchical/Multi-level modeling
-* P-hacking/Researcher degrees of freedom/Replication
+* Statistical frameworks
 * Advanced techniques
 
 ### Additional resources
