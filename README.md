@@ -2,7 +2,7 @@
   Kevin Potter (updated 04/01/2021)
 </p>
 
-This website provides a series of tutorials and FAQs for statistics, giving helpful details, examples, and reminders for the applied researchers. Examples will focus on psychology research and use (primarily) the freely available [statistical software R](https://www.r-project.org/) (for details on using R, see this website for tutorials and further links). Both Frequentist and Bayesian approaches will be covered (though note the author is biased toward the Bayesian approach).
+This website provides a series of tutorials and FAQs for statistics, giving helpful details, examples, and reminders for the applied researchers. Examples will focus on psychology research and use (primarily) the freely available [statistical software R](https://www.r-project.org/) (for details on using R, see this [website](https://rettopnivek.github.io/R_training/) for tutorials and further links). Both Frequentist and Bayesian approaches will be covered (though note the author is biased toward the Bayesian approach).
 
 ### Sections
 
