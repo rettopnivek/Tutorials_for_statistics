@@ -1,11 +1,11 @@
 ## Sections
 
 * [Probability](C01_P000_Probability.md)
-* Simple comparisons
-* Regression
+* Estimation
+* Testing hypotheses
+* Linear regression
 * Generalized linear models
 * Hierarchical/Multi-level modeling
-* Statistical frameworks
 * Advanced techniques
 
 Return to:
