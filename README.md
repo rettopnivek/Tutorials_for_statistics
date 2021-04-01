@@ -6,7 +6,7 @@ This website provides a series of tutorials and FAQs for statistics, giving help
 
 ### Sections
 
-* [Probability](doc/C01_P000_Probability.md)
+* [Probability](docs/C01_P000_Probability.md)
 * Estimation
 * Testing hypotheses
 * Linear regression
