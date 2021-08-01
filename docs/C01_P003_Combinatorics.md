@@ -21,11 +21,11 @@ Introduction
   - Definition.
   - For example, ...
 - **Sampling with replacement**
-  - Definition.
+  - When sampling with.
   - For example, ...
 - **Sampling without replacement**
-  - Definition.
-  - For example, ...
+  - When sampling without replacement, each sample unit has only one chance of being included in the sample. If a sample unit is included in a sample, that unit cannot be in subsequent samples drawn from the population.
+  - For example, consider the set *S* = \{*a*, *b*, *c*\}. When sampling a single element without replacement, if *a* is sampled from *S*, then in a subsequent draw only \{*b*, *c*\} are available - *a* is excluded.
 - **Permutation**
   - Given a set *A* with *n* elements, consider an experiment that consists of selecting *k* elements from *A* without replacement. Let each outcome consist of the *k* elements *in the order selected*. Then each outcome is called a **permutation** of **n elements taken k at a time**.
   - For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. A draw of \{ *b*, *a* \} from *A* is a permutation of 4 elements taken 2 at a time. Possible outcomes for the remaining draw from *A* would consist only of \{ *c*, *d* \} or \{ *d*, *c* \}, as per sampling without replacement. Furthermore, the elemens \{ *a*, *b* \} versus \{ *b*, *a* \} are different permutations, since they have *different orderings*.
