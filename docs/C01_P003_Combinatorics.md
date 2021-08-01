@@ -15,8 +15,8 @@ Introduction
 #### 1. Concepts
 
 - **Combination**
-  - Consider a set *A* with *n* elements. Each subset *A*<sub>i<\sub> with *k* elements (*k* < *n*) is called a **combination** of **n elements taken k at a time**.
-  - For example, supoose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. Then the subsets *A*<sub>1<\sub> = \{ *a*, *b* \} or *A*<sub>2<\sub> = \{ *b*, *a* \} or both examples of a combination of 4 elements taken 2 at a time.
+  - Consider a set *A* with *n* elements. Each subset *A*<sub>i</sub> with *k* elements (*k* < *n*) is called a **combination** of **n elements taken k at a time**.
+  - For example, supoose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. Then the subsets *A*<sub>1</sub> = \{ *a*, *b* \} or *A*<sub>2</sub> = \{ *b*, *a* \} or both examples of a combination of 4 elements taken 2 at a time.
 - Permutation
 - Unordered sample
 - Ordered sample
