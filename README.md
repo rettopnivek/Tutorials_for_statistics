@@ -7,9 +7,9 @@ This website provides a series of tutorials and FAQs for statistics, giving help
 ### Sections
 
 * [Probability](docs/C01_P000_Probability.md)
-* Estimation
-* Testing hypotheses
-* Linear regression
+* [Estimation](docs/C02_P000_Estimation.md)
+* [Testing simple hypotheses](docs/C03_P000_Testing_hypothesess.md )
+* [Linear regression](docs/C04_P000_Linear_regression.md)
 * Generalized linear models
 * Hierarchical/Multi-level modeling
 * Advanced techniques
