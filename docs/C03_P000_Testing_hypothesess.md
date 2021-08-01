@@ -1,4 +1,4 @@
-## Testing hypotheses
+## Testing simple hypotheses
 
 Forthcoming
 
