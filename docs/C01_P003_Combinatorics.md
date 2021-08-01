@@ -6,25 +6,58 @@ Introduction
 
 <a name="TOC"></a>
 ### Table of contents
-1. <a href="#S01">Multiplication rule</a>
-2. <a href="#S02">Section 2</a>
+1. <a href="#S01">Concepts</a>
+2. <a href="#S02">Multiplication rule</a>
 
 <a href="#END">&#129147;</a>
 
 <a name="S01"></a>
 #### 1. Concepts
 
+- **Unordered sample**
+  - Definition.
+  - For example, ...
+- **Ordered sample**
+  - Definition.
+  - For example, ...
+- **Sampling with replacement**
+  - Definition.
+  - For example, ...
+- **Sampling without replacement**
+  - Definition.
+  - For example, ...
+- **Permutation**
+  - Given a set *A* with *n* elements, consider an experiment that consists of selecting *k* elements from *A* without replacement. Let each outcome consist of the *k* elements *in the order selected*. Then each outcome is called a **permutation** of **n elements taken k at a time**.
+  - For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. A draw of \{ *b*, *a* \} from *A* is a permutation of 4 elements taken 2 at a time. Possible outcomes for the remaining draw from *A* would consist only of \{ *c*, *d* \} or \{ *d*, *c* \}, as per sampling without replacement. Furthermore, the elemens \{ *a*, *b* \} versus \{ *b*, *a* \} are different permutations, since they have *different orderings*.
 - **Combination**
   - Consider a set *A* with *n* elements. Each subset *A*<sub>i</sub> with *k* elements (*k* < *n*) is called a **combination** of **n elements taken k at a time**.
-  - For example, supoose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. Then the subsets *A*<sub>1</sub> = \{ *a*, *b* \} or *A*<sub>2</sub> = \{ *b*, *a* \} or both examples of a combination of 4 elements taken 2 at a time.
-- Permutation
-- Unordered sample
-- Ordered sample
-- Sampling with replacement
-- Sampling without replacement
+  - For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. Then the subset *A*<sub>1</sub> = \{ *a*, *b* \} is an example of a combination of 4 elements taken 2 at a time. Note that the permutations \{ *a*, *b* \} and \{ *b*, *a* \} are the same subset, and therefore are a single combination - in other words, for combinations, the *order of the elements does not matter*.
+
+##### References:
+
+* DeGroot, M. H., & Schervish, M. J. (2012). *Probability and statistics* (4th ed.). Boston, MA: Addison-Wesley. [&rarr;](https://www.pearson.com/us/higher-education/product/De-Groot-Probability-and-Statistics-4th-Edition/9780321500465.html)
+
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 <a name="S02"></a>
-#### 2. Multiplication rule
+#### 2. Number of permutations
+
+Content.
+
+```R
+# Example R code
+```
+
+*Note: Advanced content.*
+
+##### References:
+
+* Reference &rarr;
+
+<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
+
+<a name="S03"></a>
+#### 3. Multiplication rule
 
 Assume an experiment (e.g., a dice roll, a coin flip, etc.):
 - has k parts (*k* &#8805; 2);
@@ -76,23 +109,6 @@ print( prod( n ) ) # 216
 ##### References:
 
 * DeGroot, M. H., & Schervish, M. J. (2012). *Probability and statistics* (4th ed.). Boston, MA: Addison-Wesley. [&rarr;](https://www.pearson.com/us/higher-education/product/De-Groot-Probability-and-Statistics-4th-Edition/9780321500465.html)
-
-<a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
-
-<a name="S02"></a>
-#### 2. Permutations
-
-Content.
-
-```R
-# Example R code
-```
-
-*Note: Advanced content.*
-
-##### References:
-
-* Reference &rarr;
 
 <a href="#TOC">&#129145;</a>
 
