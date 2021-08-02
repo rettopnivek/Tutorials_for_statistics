@@ -14,7 +14,7 @@ Introduction
 <a name="S01"></a>
 #### 1. Formulation
 
-Given a predictor **x** = \\(\\{x_1, x_2, ..., x_n\\}\\) (or independent variable) and a outcome **y** = \\(\\{y_1, y_2, ..., y_n\\}\\) (or dependent variable), the formula for the simple linear regression model is
+Given a predictor **x** = \\(\\{x_1, x_2, ..., x_n\\}\\) (or independent variable) and an outcome **y** = \\(\\{y_1, y_2, ..., y_n\\}\\) (or dependent variable), the formula for the simple linear regression model is
 
 $$
 y_i = \beta_0 + \beta_1 x_i + \epsilon_i
