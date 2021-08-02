@@ -7,25 +7,62 @@ Introduction
 <a name="TOC"></a>
 ### Table of contents
 1. <a href="#S01">Concepts</a>
-2. <a href="#S02">Multiplication rule</a>
+2. <a href="#S02">Number of possible permutations</a>
+3. <a href="#S03">Number of possible combinations</a>
 
 <a href="#END">&#129147;</a>
 
 <a name="S01"></a>
 #### 1. Concepts
 
-- **Sampling with replacement**<a name="S01_R01"></a>
-  - When sampling with with replacement, <span style="color: #f47522">the population from which a sample is drawn remains unchanged after each sampling</span>. Each element in the population is always available to be sampled.
-  - <span style="color: #226af4">For example, consider the set *S* = \{ *a*, *b*, *c* \}. When sampling a single element with replacement, if *a* is sampled from *S*, then in a subsequent draw all elements \{ *a*, *b*, *c* \} are still available to be sampled.</span>
-- **Sampling without replacement**<a name="S01_R02"></a>
-  - When sampling without replacement, <span style="color: #f47522">units included in a sample are removed from the population prior to subsequent sampling</span>. In other words, if an element is sampled, that unit cannot be in subsequent samples drawn from the population.
-  - <span style="color: #226af4">For example, consider the set *S* = \{ *a*, *b*, *c* \}. When sampling a single element without replacement, if *a* is sampled from *S*, then in a subsequent draw only \{ *b*, *c* \} are available - *a* is excluded.</span>
-- **Permutation**<a name="S01_R03"></a>
-  - Given a set *A* with *n* elements, <span style="color: #f47522">consider an experiment that consists of selecting *k* elements from *A* without replacement. Let each outcome consist of the *k* elements *in the order selected*.</span> Then each outcome is called a **permutation** of **n elements taken k at a time**.
-  - <span style="color: #226af4">For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. A draw of \{ *b*, *a* \} from *A* is a permutation of 4 elements taken 2 at a time. Possible outcomes for the remaining draw from *A* would consist only of \{ *c*, *d* \} or \{ *d*, *c* \}, as per sampling without replacement. Furthermore, the elemens \{ *a*, *b* \} versus \{ *b*, *a* \} are different permutations, since they have *different orderings*.</span>
-- **Combination**<a name="S01_R04"></a>
-  - Consider a set *A* with *n* elements. <span style="color: #f47522">Each subset *A*<sub>i</sub> with *k* elements (*k* < *n*)</span> is called a **combination** of **n elements taken k at a time**.
-  - <span style="color: #226af4">For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. Then the subset *A*<sub>1</sub> = \{ *a*, *b* \} is an example of a combination of 4 elements taken 2 at a time. Note that the permutations \{ *a*, *b* \} and \{ *b*, *a* \} are the same subset, and therefore are a single combination - in other words, for combinations, the *order of the elements does not matter*.</span>
+- **Sampling with replacement**: Elements are randomly selected from a population, and the population remains unchanged after each sample is drawn.
+- **Sampling without replacement**: Elements are randomly selected from a population, and elements included in a sample are removed from the population prior to subsequent sampling.
+- **Permutation**: Given a set *A* with *n* elements, consider an experiment that consists of selecting *k* elements from *A*. Let each outcome consist of the *k* elements **in the order selected** Then each outcome is called a **permutation** of **n elements taken k at a time**.
+- **Combination**: Consider a set *A* with *n* elements. Each subset *A*<sub>i</sub> with *k* elements (*k* < *n*) is called a **combination** of **n elements taken k at a time**.
+
+```{r}
+# Consider a sample space
+S = c( "A", "B", "C", "D", "E", "F" )
+
+set.seed( 212 ) # For reproducibility
+
+### Sampling with replacement ###
+
+# Each sample draws two elements 
+# from S
+J = 1:6
+sample_1 = sample( J, size = 2 )
+sample_2 = sample( J, size = 2 )
+sample_3 = sample( J, size = 2 )
+
+# For each sample, population 
+# J remains unchanged, so 
+# elements can appear in 
+# multiple samples
+S[ sample_1 ] # [1] "F", "C"
+S[ sample_2 ] # [1] "A", "B"
+S[ sample_3 ] # [1] "A", "E"
+
+### Sampling without replacement ###
+
+# Each sample draws two elements 
+# from S
+sample_1 = sample( J, size = 2 )
+# Remove elements from population
+J = J[ !J %in% sample_1 ]  
+sample_2 = sample( J, size = 2 )
+J = J[ !J %in% sample_2 ]  
+sample_3 = sample( J, size = 2 )
+
+# After each sample, population is 
+# updated to only have unsampled 
+# elements - therefore, each 
+# element only appears once 
+# across samples
+S[ sample_1 ] # [1] "D", "A"
+S[ sample_2 ] # [1] "E", "F"
+S[ sample_3 ] # [1] "C", "B"
+```
 
 ##### References:
 
@@ -35,7 +72,7 @@ Introduction
 <a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 <a name="S02"></a>
-#### 2. Number of permutations
+#### 2. Number of possible permutations
 
 Content.
 
@@ -52,7 +89,7 @@ Content.
 <a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
 <a name="S03"></a>
-#### 3. Multiplication rule
+#### 3. Number of possible combinations
 
 Assume an experiment (e.g., a dice roll, a coin flip, etc.):
 - has k parts (*k* &#8805; 2);
