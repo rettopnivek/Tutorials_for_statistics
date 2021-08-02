@@ -20,7 +20,7 @@ Introduction
 - **Permutation**: Given a set *A* with *n* elements, consider an experiment that consists of selecting *k* elements from *A*. Let each outcome consist of the *k* elements **in the order selected** Then each outcome is called a **permutation** of **n elements taken k at a time**.
 - **Combination**: Consider a set *A* with *n* elements. Each subset *A*<sub>i</sub> with *k* elements (*k* < *n*) is called a **combination** of **n elements taken k at a time**.
 
-```{r}
+```R
 # Consider a sample space
 S = c( "A", "B", "C", "D", "E", "F" )
 
