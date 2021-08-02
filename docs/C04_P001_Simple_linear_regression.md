@@ -82,7 +82,7 @@ DISCUSS "Least-squares solution".
 The sampling distribution for the parameter \\(\beta_1\\) is N(\\(\beta_1\\), \\(\sigma_{\beta_1}^2\\)), where
 
 $$
-\sigma_{\beta_1}^2 = \frac{1}{n - 1} \lgroup \frac{\sigma_{y}^2}{\sigma_{x}^2} \rgroup (1 - R^2).
+\sigma_{\beta_1}^2 = \frac{1}{n - 2} \lgroup \frac{\sigma_{y}^2}{\sigma_{x}^2} \rgroup (1 - R^2).
 $$
 
 Here, \\(\sigma_{y}^2\\) and \\(\sigma_{x}^2\\) refer to the standard deviation of **y** and **x** (in the population).
