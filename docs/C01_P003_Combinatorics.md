@@ -16,22 +16,22 @@ Introduction
 
 - **Unordered sample**
   - Definition.
-  - <span style="color:blue">For example, ...</span>
+  - <span style="color: #ff0000">January 30, 2011</span>For example, ...</span>
 - **Ordered sample**
   - Definition.
-  - <span style="color:blue">For example, ...</span>
+  - For example, ...
 - **Sampling with replacement**
   - When sampling with.
-  - <span style="color:blue">For example, ...</span>
+  - For example, ...
 - **Sampling without replacement**
   - When sampling without replacement, each sample unit has only one chance of being included in the sample. If a sample unit is included in a sample, that unit cannot be in subsequent samples drawn from the population.
-  - <span style="color:blue">For example, consider the set *S* = \{*a*, *b*, *c*\}. When sampling a single element without replacement, if *a* is sampled from *S*, then in a subsequent draw only \{*b*, *c*\} are available - *a* is excluded.</span>
+  - For example, consider the set *S* = \{*a*, *b*, *c*\}. When sampling a single element without replacement, if *a* is sampled from *S*, then in a subsequent draw only \{*b*, *c*\} are available - *a* is excluded.
 - **Permutation**
   - Given a set *A* with *n* elements, consider an experiment that consists of selecting *k* elements from *A* without replacement. Let each outcome consist of the *k* elements *in the order selected*. Then each outcome is called a **permutation** of **n elements taken k at a time**.
-  - <span style="color:blue">For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. A draw of \{ *b*, *a* \} from *A* is a permutation of 4 elements taken 2 at a time. Possible outcomes for the remaining draw from *A* would consist only of \{ *c*, *d* \} or \{ *d*, *c* \}, as per sampling without replacement. Furthermore, the elemens \{ *a*, *b* \} versus \{ *b*, *a* \} are different permutations, since they have *different orderings*.</span>
+  - For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. A draw of \{ *b*, *a* \} from *A* is a permutation of 4 elements taken 2 at a time. Possible outcomes for the remaining draw from *A* would consist only of \{ *c*, *d* \} or \{ *d*, *c* \}, as per sampling without replacement. Furthermore, the elemens \{ *a*, *b* \} versus \{ *b*, *a* \} are different permutations, since they have *different orderings*.
 - **Combination**
   - Consider a set *A* with *n* elements. Each subset *A*<sub>i</sub> with *k* elements (*k* < *n*) is called a **combination** of **n elements taken k at a time**.
-  - <span style="color:blue">For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. Then the subset *A*<sub>1</sub> = \{ *a*, *b* \} is an example of a combination of 4 elements taken 2 at a time. Note that the permutations \{ *a*, *b* \} and \{ *b*, *a* \} are the same subset, and therefore are a single combination - in other words, for combinations, the *order of the elements does not matter*.</span>
+  - For example, suppose you have the set *A* = \{ *a*, *b*, *c*, *d* \}. Then the subset *A*<sub>1</sub> = \{ *a*, *b* \} is an example of a combination of 4 elements taken 2 at a time. Note that the permutations \{ *a*, *b* \} and \{ *b*, *a* \} are the same subset, and therefore are a single combination - in other words, for combinations, the *order of the elements does not matter*.
 
 ##### References:
 
