@@ -16,7 +16,7 @@ Introduction
 
 - **Unordered sample**
   - Definition.
-  - <span style="color: #ff0000">January 30, 2011</span>For example, ...</span>
+  - <span style="color: #ADD8E6">For example, ...</span>
 - **Ordered sample**
   - Definition.
   - For example, ...
