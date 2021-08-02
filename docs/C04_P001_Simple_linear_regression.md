@@ -14,16 +14,15 @@ Introduction
 <a name="S01"></a>
 #### 1. Formulation
 
-
-The formula for the simple linear regression model is
+Given an independent variable/predictor \\(text{\textbf{x}} = \{x_1, x_2, ..., x_n\}\\) and a dependent variable/outcome \\(text{\textbf{y}} = \{y_1, y_2, ..., y_n\}\\), the formula for the simple linear regression model is
 
 $$
 y_i = \beta_0 + \beta_1 x_i + \epsilon_i
 $$
 
-where \\(\epsilon \sim \text{N}( 0, \sigma^2 )\\).
+where \\(\epsilon_i \sim \text{N}( 0, \sigma^2 )\\).
 
-In other words, the residual $\epsilon_i$ follows a normal distribution with a mean of 0 and a variance of \\(\sigma^2\\). An equivalent way of writing this is
+In other words, the residuals \\(\epsilon\\) follows a normal distribution with a mean of 0 and a variance of \\(\sigma^2\\). An equivalent way of writing this is
 
 $$
 y_i \sim \text{N}( \mu_i, \sigma^2 ) \text{ with } \mu_i = \beta_0 + \beta_1 x_i.
