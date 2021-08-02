@@ -21,16 +21,18 @@ $$
 y_i = \beta_0 + \beta_1 x_i + \epsilon_i
 $$
 
-where $\epsilon \sim \text{N}( 0, \sigma^2 )$.
+where \(\epsilon \sim \text{N}( 0, \sigma^2 )\).
 
-In other words, the residual $\epsilon_i$ follows a normal distribution with a mean of 0 and a variance of $\sigma^2$. An equivalent way of writing this is
+In other words, the residual \(\epsilon_i\) follows a normal distribution with a mean of 0 and a variance of \(\sigma^2\). An equivalent way of writing this is
 
-$y_i \sim \text{N}( \mu_i, \sigma^2 )$
+$$
+y_i \sim \text{N}( \mu_i, \sigma^2 ) \text{ with } \mu_i = \beta_0 + \beta_1 x_i.
+$$
 
-where $\mu_i = \beta_0 + \beta_1 x_i$. This formulation helps to emphasizes key assumptions for the simple linear regression model:
+This formulation helps to emphasizes some key assumptions for the simple linear regression model:
 
 * The dependent variable is assumed to follow a normal distribution;
-* The variance of the distribution is fixed irrespective of the values of *y* or *x* (homoscedasticity);
+* As indicated by a lack of a subscript i on \(\sigma^2\), the variance of the distribution is fixed irrespective of the values of *y* or *x* (homoscedasticity);
 * The predicted value for *y* is a linear combination of *x*;
 * Observations are independent and identically distributed (i.i.d.).
 
