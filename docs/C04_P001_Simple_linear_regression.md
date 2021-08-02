@@ -22,7 +22,7 @@ $$
 
 where \\(\epsilon_i \sim \text{N}( 0, \sigma_{\epsilon}^2 )\\).
 
-In other words, the residuals \\(\epsilon\\) follows a normal distribution with a mean of 0 and a variance of \\(\sigma{\epsilon}^2\\). An equivalent way of writing this is
+In other words, the residuals \\(\epsilon\\) follows a normal distribution with a mean of 0 and a variance of \\(\sigma_{\epsilon}^2\\). An equivalent way of writing this is
 
 $$
 y_i \sim \text{N}( \mu_i, \sigma^2 ) \text{ with } \mu_i = \beta_0 + \beta_1 x_i.
@@ -58,7 +58,7 @@ $$
 
 where \\(\sigma_{x}^2\\) is the variance for the predictor **x**.
 
-Therefore, the proportion of variance of the outcome **x** accounted for by its linear relation with the predictor **x**, a metric known as \\(R^2\\), is
+Therefore, the proportion of variance of the outcome **y** accounted for by its linear relation with the predictor **x**, a metric known as \\(R^2\\), is
 
 $$
 R^2 = \frac{\sigma_{R}^2}{\sigma_{y}^2}
