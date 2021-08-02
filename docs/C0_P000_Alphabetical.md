@@ -25,6 +25,7 @@
 <a name="LC"></a>
 #### C)
 
+* <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P003_Combinatorics.html#S01_R04">Combination</a>
 * Commutativity
   * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03_R01">Set theory</a>
 * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S03">Complement</a>
@@ -137,6 +138,7 @@
 <a name="LP"></a>
 #### P)
 
+* <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P003_Combinatorics.html#S01_R03">Permutation</a>
 * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P000_Probability.html">Probability</a>
 * Population
   * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">Set theory</a>
@@ -164,6 +166,8 @@
 #### S)
 
 * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">Sample space</a>
+* <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P003_Combinatorics.html#S01_R01">Sampling with replacement</a>
+* <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P003_Combinatorics.html#S01_R02">Sampling without replacement</a>
 * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S02">Set</a>
 * <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html">Set theory</a>
 
