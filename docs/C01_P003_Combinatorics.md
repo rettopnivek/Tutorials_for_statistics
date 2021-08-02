@@ -16,13 +16,13 @@ Introduction
 
 - **Unordered sample**
   - Definition.
-  - <span style="color: #ADD8E6">For example, ...</span>
+  - <span style="color: #229ff4">For example, ...</span>
 - **Ordered sample**
   - Definition.
-  - For example, ...
+  - <span style="color: #229ff4">For example, ...</span>
 - **Sampling with replacement**
   - When sampling with.
-  - For example, ...
+  - <span style="color: #229ff4">For example, ...</span>
 - **Sampling without replacement**
   - When sampling without replacement, each sample unit has only one chance of being included in the sample. If a sample unit is included in a sample, that unit cannot be in subsequent samples drawn from the population.
   - For example, consider the set *S* = \{*a*, *b*, *c*\}. When sampling a single element without replacement, if *a* is sampled from *S*, then in a subsequent draw only \{*b*, *c*\} are available - *a* is excluded.
