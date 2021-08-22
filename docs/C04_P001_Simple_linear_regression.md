@@ -25,21 +25,15 @@ where \\(\epsilon_i \sim \text{N}( 0, \sigma_{\epsilon}^2 )\\).
 In other words, the residuals \\(\epsilon\\) follows a normal distribution with a mean of 0 and a variance of \\(\sigma_{\epsilon}^2\\). An equivalent way of writing this is
 
 $$
-y_i \sim \text{N}( \mu_i, \sigma^2 ) \text{ with } \mu_i = \beta_0 + \beta_1 x_i.
+y_i \sim \text{N}( \mu_i, \sigma_{\epsilon}^2 ) \text{ with } \mu_i = \beta_0 + \beta_1 x_i.
 $$
 
 This formulation helps to emphasizes some key assumptions for the simple linear regression model:
 
 * The dependent variable is assumed to follow a normal distribution;
-* As indicated by a lack of a subscript i on \\(\sigma^2\\), the variance of the distribution is fixed irrespective of the values of **y** or **x** (homoscedasticity);
+* As indicated by a lack of a subscript i on \\(\sigma_{\epsilon}^2\\), the variance of the distribution is fixed irrespective of the values of **y** or **x** (homoscedasticity);
 * The expected value for \\(y_i\\) is a linear combination of an intercept and \\(x_i\\);
 * Observations are independent and identically distributed (i.i.d.).
-
-```R
-# Example R code
-```
-
-*Note: Advanced content.*
 
 <a name="S03"></a>
 #### 3. Decomposition of the variance for **y**
