@@ -30,10 +30,10 @@ $$
 
 This formulation helps to emphasizes some key assumptions for the simple linear regression model:
 
-* **Normality** - the dependent variable is assumed to follow a normal distribution;
-* **Homoscedasticity** - as indicated by a lack of a subscript i on \\(\sigma_{\epsilon}^2\\), the variance of the distribution is fixed irrespective of the values of **y** or **x**;
 * **Linearity** - the expected value for \\(y_i\\) is a linear combination of the intercept and \\(x_i\\) with the coefficients \\(\beta_0\\) and \\(\beta_1\\);
+* **Homoscedasticity** - as indicated by a lack of a subscript i on \\(\sigma_{\epsilon}^2\\), the variance of the distribution is fixed irrespective of the values of **y** or **x**;
 * **Independence** - observations are independent and identically distributed (i.i.d.).
+* * **Normality** - the dependent variable is assumed to follow a normal distribution;
 
 <a name="S03"></a>
 #### 3. Decomposition of the variance for **y**
