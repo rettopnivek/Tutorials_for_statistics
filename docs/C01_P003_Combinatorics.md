@@ -138,6 +138,21 @@ n <- c( 6, 6, 6 )
 print( prod( n ) ) # 216
 ```
 
+
+Let *n*  be the total number of elements in the set, and let *k* be the number of elements drawn from the set with replacement. Then the total number of permutations is \\(n^k\\). For example, considers a 3-dial combination lock with the numbers 0 to 9 on each dial. Then the set of possible elements is \\(S = \{0, \dots, 9\}\\), with *n* = 10 and *k* = 3, resulting in \\(10^3 = 1000\\) possible permutations.
+
+$$
+P(n,k) = \frac{n!}{(n - k)!} = \frac{ \Gamma(n+1) }{ \Gamma( n - k + 1 ) }.
+$$
+
+$$
+C(n,k) = \frac{n!}{k! (n - k)! }
+$$
+
+```r
+exp(lgamma(n+1)‐lgamma(n‐m+1))
+```
+
 ##### References:
 
 * DeGroot, M. H., & Schervish, M. J. (2012). *Probability and statistics* (4th ed.). Boston, MA: Addison-Wesley. [&rarr;](https://www.pearson.com/us/higher-education/product/De-Groot-Probability-and-Statistics-4th-Edition/9780321500465.html)
