@@ -156,7 +156,8 @@ exp(lgamma(n+1)‐lgamma(n‐m+1))
 $$
 \begin{align*} 
 \textrm{ Permutation } & \vert \textrm{ Replacement } & \vert \textrm{ Expression } \\
-\textrm{ Yes } & \vert \textrm{ Yes } & \vert n^k
+        \textrm{ Yes } &         \vert \textrm{ Yes } & \vert n^k \\
+        \textrm{ Yes } &         \vert \textrm{ No } & \vert P(n, k) \\
 \end{align*}
 $$
 
