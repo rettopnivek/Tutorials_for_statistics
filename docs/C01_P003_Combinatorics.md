@@ -154,11 +154,10 @@ exp(lgamma(n+1)‐lgamma(n‐m+1))
 ```
 
 $$
-\textrm{ Permutation } \vert \textrm{ Replacement } \vert \textrm{ Expression }
-$$
-
-$$
-\textrm{ Yes         } \vert \textrm{ Yes         } \vert n^k
+\begin{align*} 
+\textrm{ Permutation } & \vert \textrm{ Replacement } & \vert \textrm{ Expression } \\
+\textrm{ Yes } & \vert \textrm{ Yes } & \vert n^k
+\end{align*}
 $$
 
 ##### References:
