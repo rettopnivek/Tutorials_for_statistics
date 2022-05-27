@@ -15,9 +15,9 @@ Introduction
 <a name="S01"></a>
 #### 1. Concepts
 
-- **Sampling with replacement**: Elements are randomly selected from a population, and the population remains unchanged after each sample is drawn.
-- **Sampling without replacement**: Elements are randomly selected from a population, and elements included in a sample are removed from the population prior to subsequent sampling.
-- **Permutation**: Given a set *A* with *n* elements, consider an experiment that consists of selecting *k* elements from *A*. Let each outcome consist of the *k* elements **in the order selected** Then each outcome is called a **permutation** of **n elements taken k at a time**.
+- **Sampling with replacement**: Elements are randomly selected from a population, and the population remains unchanged after each sample is drawn. Also referred to as sampling **with repetitions**.
+- **Sampling without replacement**: Elements are randomly selected from a population, and elements included in a sample are removed from the population prior to subsequent sampling. Also referred to as sampling **without repetitions**.
+- **Permutation**: Given a set *A* with *n* elements, consider an experiment that consists of selecting *k* elements from *A*. Let each outcome consist of the *k* elements **in the order selected**. Then each outcome is called a **permutation** of **n elements taken k at a time**.
 - **Combination**: Consider a set *A* with *n* elements. Each subset *A*<sub>i</sub> with *k* elements (*k* < *n*) is called a **combination** of **n elements taken k at a time**.
 
 ```R
@@ -152,6 +152,14 @@ $$
 ```r
 exp(lgamma(n+1)‐lgamma(n‐m+1))
 ```
+
+$$
+\mtext{ Permutation } \vert \mtext{ Replacement } \vert \mtext{ Expression }
+$$
+
+$$
+\mtext{ Yes         } \vert \mtext{ Yes         } \vert n^k
+$$
 
 ##### References:
 
