@@ -8,7 +8,6 @@ Introduction
 1. <a href="#S01">The cumulative distribution function</a>
 2. <a href="#S02">The probability density function</a>
 3. <a href="#S03">The hazard function</a>
-4. <a href="#S04">The moment generating function</a>
 
 <a href="#END">&#129147;</a>
 
@@ -72,6 +71,21 @@ $$
 *Note: Sometimes people will refer to the PDF more simply as the density function.*
 
 When working with discrete random variables, it is often possible to compute the probability that the random variable equals an exact value, or \\( P(\boldsymbol{X} = x) \\), known as the *probability mass function*.
+
+```R
+# Example R code
+```
+
+*Note: Advanced content.*
+
+<a name="S03"></a>
+#### 3. The hazard function
+
+The likelihood of an event occurring given that it has not yet occurred.
+
+$$
+\lambda(x) = \frac{ f(x) }{ 1 - F(x) }.
+$$
 
 ```R
 # Example R code
