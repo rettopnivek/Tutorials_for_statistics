@@ -1,3 +1,4 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ## Probability distributions
 
 Introduction
@@ -12,9 +13,11 @@ Introduction
 <a name="S01"></a>
 #### 1. The cumulative distribution function
 
-A *complete probabilstic description* of a random variable **X** for a single observation (or series of independent observations) is the probability that **X** is less than or equal to a real value x. or F(x) = P(**X** &#8804; x). One can write this as a function, known as the *cumulative distribution function* (**CDF**):
+A *complete probabilstic description* of a random variable **X** for a single observation (or series of independent observations) is the probability that **X** is less than or equal to a real value x. One can write this as a function, known as the *cumulative distribution function* (**CDF**):
 
-F(x) = F(**X** &#8804; x).
+$$
+F(x) = P(\boldsymbol(X) \leq x).
+$$
 
 A function must meet 3 requirements to be a **CDF**:
 
@@ -25,6 +28,8 @@ A function must meet 3 requirements to be a **CDF**:
 ```R
 # Example code
 ```
+
+*Note: Sometimes people will refer to the CDF more simply as the distribution function.*
 
 *Note: Advanced content.*
 
@@ -37,13 +42,17 @@ A function must meet 3 requirements to be a **CDF**:
 <a name="S02"></a>
 #### 2. The density function
 
-Assuming the cumulative distribution function is differentiable, we can compute the first derivate with respect to the value x to get the *probability density function* (**PDF**):
+Assuming the cumulative distribution function is differentiable, we can compute the first derivative with respect to the value x to get the *probability density function* (**PDF**):
 
-f(x) = *d* F(x) / *d*x.
+$$
+f(x) = \frac{d}{dx} F(x).
+$$
 
 As such, one can also compute the cumulative distribution function by taking the integral of the probability density function:
 
-F(x) = &#8747;<sup>x</sup><sub>-&#8734;</sub> f(x) *d*x.
+$$
+F(x) = \int_{-\infty}^{x} f(x) dx/\.
+$$
 
 ```R
 # Example R code
