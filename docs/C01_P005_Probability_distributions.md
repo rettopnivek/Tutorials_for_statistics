@@ -16,7 +16,7 @@ Introduction
 A *complete probabilstic description* of a random variable **X** for a single observation (or series of independent observations) is the probability that **X** is less than or equal to a real value x. One can write this as a function, known as the *cumulative distribution function* (**CDF**):
 
 $$
-F(x) = P(\boldsymbol(X) \leq x).
+F(x) = P(\boldsymbol{X} \leq x).
 $$
 
 A function must meet 3 requirements to be a **CDF**:
@@ -51,7 +51,7 @@ $$
 As such, one can also compute the cumulative distribution function by taking the integral of the probability density function:
 
 $$
-F(x) = \int_{-\infty}^{x} f(x) dx/\.
+F(x) = \int_{-\infty}^{x} f(x) dx.
 $$
 
 ```R
