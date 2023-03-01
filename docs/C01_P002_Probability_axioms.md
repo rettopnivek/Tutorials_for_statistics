@@ -24,24 +24,12 @@ Kolmogorov (1933) set forth 6 axioms to define probabilities. Based on a 2018 tr
 
 Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">sample space</a>) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let &#120021; be a set of subsets of &Omega;, where the elements of &#120021; are called *random events*. Then...
 
-\\(y_i\\)
-<br>
-\\(\mathcal{F}\\) is a *field of sets* (now known as a set algebra).
-<br>
-\\( \mathcal{F} \\) contains \\( \Omega \\).
-
-
-$$
-\text{3.  To each set } E_{i} \text{ in } \mathcal{F} \text{, a non-negative real number } P(E_{i}) \text{ is assigned. The nunber } P(E_{i}) \text{ is called the probability of event } E_{i}.
-$$
-
-
-1. &#120021; is a *field of sets* \[now known as a **set-algebra**\].
-2. &#120021; contains &Omega;.
-3. To each set E<sub>i</sub> in &#120021;, a non-negative real number P(E<sub>i</sub>) is assigned. The number P(E<sub>i</sub>) is called the probability of event E<sub>i</sub>.
-4. P(&Omega;) equals 1.
-5. If set E<sub>i</sub> and E<sub>j</sub> have no element in common (E<sub>i</sub> &cap; E<sub>j</sub> = &empty;), then P(E<sub>i</sub> &cup; E<sub>j</sub>) = P(E<sub>i</sub>) + P(E<sub>j</sub>).
-6. If E<sub>1</sub> &#8839; E<sub>2</sub> &#8839; ... is a countably infinite decreasing sequence of events from &#120021; with &#8898;<sup>&#8734;</sup><sub>i = 1</sub> E<sub>i</sub> = &#8709;, then lim<sub>i &#8594; &#8734;</sub> P( E<sub>i</sub> ) = 0.
+1. \\( \mathcal{F} \\) is a *field of sets* (now known as a set algebra).
+2. \\( \mathcal{F} \\) contains \\( \Omega \\).
+3. To each set \\( E_{i} \\) in \\( \mathcal{F} \\), a non-negative real number \\( P(E_{i}) \\) is assigned. The nunber \\( P(E_{i}) \\) is called the probability of event \\( E_{i} \\).
+4. \\( P(\Omega) \\) equals 1.
+5. If set \\( E_{i} \\) and \\( E_{j} \\) have no element in common (\\( E_{i} \cap E_{j} = \emptyset \\)), then \\( P(E_{i} \cup E_{j}) = P(E_{i}) + P(E_{j}) \\).
+6. If \\(E_{1} \supseteq E_{2} \supseteq \dots \\) is a countably infinite decreasing sequence of events from \\( \mathcal{F} \\) with \\( \bigcap_{i=1}^{\infty} E_{i} = \emptyset \\) then \\( lim_{i \to \infty} P(E_{i}) = 0 \\).
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
