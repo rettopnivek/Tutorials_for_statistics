@@ -26,10 +26,10 @@ Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics
 
 1. \\( \mathcal{F} \\) is a *field of sets* (now known as a set algebra).
 2. \\( \mathcal{F} \\) contains \\( \Omega \\).
-3. To each set \\( E_{i} \\) in \\( \mathcal{F} \\), a non-negative real number \\( P(E_{i}) \\) is assigned. The nunber \\( P(E_{i}) \\) is called the probability of event \\( E_{i} \\).
+3. To each set \\( E_{i} \\) in \\( \mathcal{F} \\), a non-negative real number \\( P(E_{i}) \\) is assigned. The number \\( P(E_{i}) \\) is called the probability of event \\( E_{i} \\).
 4. \\( P(\Omega) \\) equals 1.
-5. If set \\( E_{i} \\) and \\( E_{j} \\) have no element in common (\\( E_{i} \cap E_{j} = \emptyset \\)), then \\( P(E_{i} \cup E_{j}) = P(E_{i}) + P(E_{j}) \\).
-6. If \\(E_{1} \supseteq E_{2} \supseteq \dots \\) is a countably infinite decreasing sequence of events from \\( \mathcal{F} \\) with \\( \bigcap_{i=1}^{\infty} E_{i} = \emptyset \\) then \\( lim_{i \to \infty} P(E_{i}) = 0 \\).
+5. If set \\( E_{i} \\) and \\( E_{j} \\) have no element in common \\( (E_{i} \cap E_{j} = \emptyset) \\), then \\( P(E_{i} \cup E_{j}) = P(E_{i}) + P(E_{j}) \\).
+6. If \\(E_{1} \supseteq E_{2} \supseteq \dots \\) is a countably infinite decreasing sequence of events from \\( \mathcal{F} \\) with \\( \bigcap_{i=1}^{\infty} E_{i} = \emptyset \\) then \\( \lim_{i \to \infty} P(E_{i}) = 0 \\).
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
