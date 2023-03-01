@@ -24,6 +24,10 @@ Kolmogorov (1933) set forth 6 axioms to define probabilities. Based on a 2018 tr
 
 Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">sample space</a>) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let &#120021; be a set of subsets of &Omega;, where the elements of &#120021; are called *random events*. Then...
 
+$$
+\text{1. } \mathcal{F} \text{ is a } field of sets \text{ (now known as a set algebra)}.
+$$
+
 1. &#120021; is a *field of sets* \[now known as a **set-algebra**\].
 2. &#120021; contains &Omega;.
 3. To each set E<sub>i</sub> in &#120021;, a non-negative real number P(E<sub>i</sub>) is assigned. The number P(E<sub>i</sub>) is called the probability of event E<sub>i</sub>.
@@ -53,12 +57,17 @@ Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics
 <a name="S02"></a>
 #### 2. Current axiomatic foundations
 
-Standard textbooks on probability reformulate the axioms proposed by Kolmogov and lay out the axiomatic foundations in two steps.
+Standard textbooks on probability reformulate the axioms proposed by Kolmogov, providing some groundwork from set theory and then presenting three axioms. First, we define a **&sigma;-algebra** or **Borel field** (&#120017;) as a collection of subsets of a sample space &Omega; with the following 3 properties:
+ 
+1. &empty; &#8712; &#120017; (the empty set is an element of &#120017;).
+2. If E &#8712; &#120017; then E<sup>c</sup> &#8712; &#120017; (&#120017; is closed under complementation).
+3. If E<sub>1</sub>, E<sub>2</sub>, ... &#8712; &#120017; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> E<su>i</sub> &#8712; &#120017; (&#120017; is closed under countable unions).
 
-* **&sigma;-algebra** or **Borel field** (&#120017;): A collection of subsets of a sample space &Omega; with the following 3 properties:
-  * &empty; &#8712; &#120017; (the empty set is an element of &#120017;).
-  * If E &#8712; &#120017; then E<sup>c</sup> &#8712; &#120017; (&#120017; is closed under complementation).
-  * If E<sub>1</sub>, E<sub>2</sub>, ... &#8712; &#120017; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> E<su>i</sub> &#8712; &#120017; (&#120017; is closed under countable unions).
+Given a sample space &Omega; and an associated sigma;-algebra &#120017;, a probability function is therefore a function P with domain &#120017; that satisfies:
+
+1. P(E) %ge; 0 (The probability of any event must be non-negative).
+2. P(&Omega;) = 1.
+3. If E<sub>1</sub>, E<sub>2</sub>, ... &#8712; &#120017; are pairwise disjoint.
 
 ```R
 # Example R code
