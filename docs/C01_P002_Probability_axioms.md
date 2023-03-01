@@ -53,17 +53,17 @@ Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics
 <a name="S02"></a>
 #### 2. Current axiomatic foundations
 
-Standard textbooks on probability reformulate the axioms proposed by Kolmogov, providing some groundwork from set theory and then presenting three axioms. First, we define a **&sigma;-algebra** or **Borel field** (&#120017;) as a collection of subsets of a sample space &Omega; with the following 3 properties:
+Standard textbooks on probability reformulate the axioms proposed by Kolmogov, providing some groundwork from set theory and then presenting three axioms. First, we define a \\( \sigma\text{-algebra} \\) or **Borel field** \\( (\mathcal{B}) \\) as a collection of subsets of a sample space \\( \Omega \\) with the following 3 properties:
  
-1. &empty; &#8712; &#120017; (the empty set is an element of &#120017;).
-2. If E &#8712; &#120017; then E<sup>c</sup> &#8712; &#120017; (&#120017; is closed under complementation).
-3. If E<sub>1</sub>, E<sub>2</sub>, ... &#8712; &#120017; then &cup;<sup>&#8734;</sup><sub>i = 1</sub> E<su>i</sub> &#8712; &#120017; (&#120017; is closed under countable unions).
+1. \\( \emptyset \in \mathcal{B} \\) (the empty set is an element of \\( \mathcal{B} \\)).
+2. If \\( E \in \mathcal{B} \\) then \\( E^{c} \in \mathcal{B} \\) (\\( \mathcal{B} \\) is closed under complementation).
+3. If \\( E_{1}, E_{2}, \dots \in \mathcal{B} \\) then \\( \bigcup_{i=1}^{\infty} E_i \in \mathcal{B} \\) (\\( \mathcal{B} \\) is closed under countable unions).
 
-Given a sample space &Omega; and an associated sigma;-algebra &#120017;, a probability function is therefore a function P with domain &#120017; that satisfies:
+Given a sample space \\( \Omega \\) and an associated \\( \sigma\text{-algebra} \\) \\( \mathcal{B} \\), a probability function is therefore a function P with domain \\( \mathcal{B} \\) that satisfies:
 
-1. P(E) %ge; 0 (The probability of any event must be non-negative).
-2. P(&Omega;) = 1.
-3. If E<sub>1</sub>, E<sub>2</sub>, ... &#8712; &#120017; are pairwise disjoint.
+1. \\( P(E) \geq 0 \\) (The probability of any event must be non-negative).
+2. \\( P(\Omega) = 1 \\) (The probability of any event occuring, including the empty set, is one).
+3. If \\( E_{1}, E_{2}, \dots \in \mathcal{B} \\) are pairwise disjoint, then \\( P(\bigcup_{i=1}^{\infty} E_i) = \sum_{i=1}^{\infty} P(E_{i}). \\)
 
 ```R
 # Example R code
