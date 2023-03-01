@@ -22,7 +22,7 @@ An **axiomatic definition of probability** (axioms are propositions to be taken 
 
 Kolmogorov (1933) set forth 6 axioms to define probabilities. Based on a 2018 translation of his work, with slight notational changes:
 
-Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">sample space</a>) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let &#120021; be a set of subsets of &Omega;, where the elements of &#120021; are called *random events*. Then...
+Let \\( \Omega \\) (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">sample space</a>) be a collection of elements \\( e_{1}, e_{2}, e_{3}, ..., \\) dubbed *elementary events*, and let \\( \mathcal{F} \\) be a set of subsets of \\( \Omega \\), where the elements of \\( \mathcal{F} \\) are called *random events*. Then...
 
 1. \\( \mathcal{F} \\) is a *field of sets* (now known as a set algebra).
 2. \\( \mathcal{F} \\) contains \\( \Omega \\).
