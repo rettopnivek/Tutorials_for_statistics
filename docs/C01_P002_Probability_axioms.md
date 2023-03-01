@@ -24,13 +24,9 @@ Kolmogorov (1933) set forth 6 axioms to define probabilities. Based on a 2018 tr
 
 Let &Omega; (the <a href="https://rettopnivek.github.io/Tutorials_for_statistics/docs/C01_P001_Set_theory.html#S01">sample space</a>) be a collection of elements e<sub>1</sub>, e<sub>2</sub>, e<sub>3</sub>, ..., dubbed *elementary events*, and let &#120021; be a set of subsets of &Omega;, where the elements of &#120021; are called *random events*. Then...
 
-$$
-\text{1.  } \mathcal{F} \text{ is a field of sets (now known as a set algebra)}.
-$$
+1. \\( \mathcal{F} \\) is a *field of sets* (now known as a set algebra).
+2. \\( \mathcal{F} \\) contains \\( \Omega \\).
 
-$$
-\text{2.  } \mathcal{F} \text{ contains } \Omega.
-$$
 
 $$
 \text{3.  To each set } E_{i} \text{ in } \mathcal{F} \text{, a non-negative real number } P(E_{i}) \text{ is assigned. The nunber } P(E_{i}) \text{ is called the probability of event } E_{i}.
