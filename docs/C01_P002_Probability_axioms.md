@@ -91,7 +91,7 @@ If \\( P \\) is a probability function and A is any set in \\( \mathcal{B} \\), 
 If \\( P \\) is a probability function and A and B are any sets in \\( \mathcal{B} \\), then:
 
 * \\( P(B \cap A^{c}) = P(B) - P(A \cap B). \\)
-* \\( P(A \cup \B) = P(A) + P(B) - P(A \cap B). \\)
+* \\( P(A \cup B) = P(A) + P(B) - P(A \cap B). \\)
 * If \\( A \subset B, \\) then \\( P(A) \leq P(B). \\)
 
 **Bonferonni's Inequality** provides a bound on a simultaneous event based on the probabilities of individual events:
