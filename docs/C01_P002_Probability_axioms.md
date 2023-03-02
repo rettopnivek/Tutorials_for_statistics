@@ -38,8 +38,8 @@ Let \\( \Omega \\) (the <a href="https://rettopnivek.github.io/Tutorials_for_sta
 
 **Axioms 3 - 5**: These are the *key axioms that define probability*. These axioms (or variants thereof) are what you will typically see reported in textbooks and introductory statistics courses. Several useful collaries can be derived from them:
 
-- **Complement rule** - For any event A, \\( P(A^{c}) = 1 - P(A) \\).
-- **Inclusion-Exclusion** - For two arbitrary events A and B, \\( P(A \cup B) = P(A) + P(B) - P( A \cap B) \\).
+- **Complement rule** - For any event \\( A \\), \\( P(A^{c}) = 1 - P(A) \\).
+- **Inclusion-Exclusion** - For two arbitrary events \\( A \\) and \\( B \\), \\( P(A \cup B) = P(A) + P(B) - P( A \cap B) \\).
 
 **Axiom 6**: This axiom ensures the definition of probability works both for finite and continuous variables.
 
@@ -55,21 +55,21 @@ Let \\( \Omega \\) (the <a href="https://rettopnivek.github.io/Tutorials_for_sta
 
 Standard textbooks on probability reformulate the axioms proposed by Kolmogov, providing some groundwork from set theory and then presenting three axioms. First, we define a \\( \sigma\text{-algebra} \\) or **Borel field** \\( (\mathcal{B}) \\) as a collection of subsets of a sample space \\( \Omega \\) with the following 3 properties:
  
-1. \\( \emptyset \in \mathcal{B} \\) (the empty set is an element of \\( \mathcal{B} \\)).
-2. If \\( E \in \mathcal{B} \\) then \\( E^{c} \in \mathcal{B} \\) (\\( \mathcal{B} \\) is closed under complementation).
-3. If \\( E_{1}, E_{2}, \dots \in \mathcal{B} \\) then \\( \bigcup_{i=1}^{\infty} E_i \in \mathcal{B} \\) (\\( \mathcal{B} \\) is closed under countable unions).
+1. \\( \emptyset \in \mathcal{B} \\); The empty set is an element of \\( \mathcal{B} \\)).
+2. If \\( E \in \mathcal{B} \\) then \\( E^{c} \in \mathcal{B} \\); \\( \mathcal{B} \\) is closed under complementation.
+3. If \\( E_{1}, E_{2}, \dots \in \mathcal{B} \\) then \\( \bigcup_{i=1}^{\infty} E_i \in \mathcal{B} \\); \\( \mathcal{B} \\) is closed under countable unions.
 
 Given a sample space \\( \Omega \\) and an associated \\( \sigma\text{-algebra} \\) \\( \mathcal{B} \\), a probability function is therefore a function P with domain \\( \mathcal{B} \\) that satisfies:
 
-1. \\( P(E) \geq 0 \\) (The probability of any event must be non-negative).
-2. \\( P(\Omega) = 1 \\) (The probability of any event occuring, including the empty set, is one).
-3. If \\( E_{1}, E_{2}, \dots \in \mathcal{B} \\) are pairwise disjoint, then \\( P(\bigcup_{i=1}^{\infty} E_i) = \sum_{i=1}^{\infty} P(E_{i}). \\)
+1. \\( P(E) \geq 0 \\); The probability of any event must be non-negative.
+2. \\( P(\Omega) = 1 \\); The probability of any event occuring, including the empty set, is one.
+3. If \\( E_{1}, E_{2}, \dots \in \mathcal{B} \\) are pairwise disjoint, then \\( P(\bigcup_{i=1}^{\infty} E_i) = \sum_{i=1}^{\infty} P(E_{i}). \\); This is known as *countable additivity*.
 
-```R
-# Example R code
-```
+Given a finite set, there is an intuitive general-purpose method to define a function that satisfies Kolmogorov's axioms and therefore is a legimitate probability function. Let \\( \Omega = \{ e_{1}, e_{2}, ..., e_{n} \} \\) be a finite set of elements. Let \\( \mathcal{B} \\) be a \\( \sigma\text{-algebra} \\) of subsets of \\( \Omega \\). Let \\( p_{1}, p_{2}, ..., p_{n} \\) be nonnegative numbers that sum to 1. Then for any \\( E \in \mathcal{B} \\) we can define \\( P(E) \\) as:
 
-*Note: Advanced content.*
+$$
+P(E) = \sum_{i:e_{i} \in A} p_{i}.
+$$
 
 ##### References:
 
