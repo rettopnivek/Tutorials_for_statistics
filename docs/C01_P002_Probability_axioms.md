@@ -33,13 +33,13 @@ Let \\( \Omega \\) (the <a href="https://rettopnivek.github.io/Tutorials_for_sta
 
 **Axioms 1 - 2**: These axioms provide some useful groundwork in preparation of defining probability. Important implications are:
 
-- The *field of sets*, or a **set-algebra**, indicates that if sets E<sub>i</sub> and E<sub>j</sub> are in &#120021;, then E<sub>i</sub> &cup; E<sub>j</sub>, E<sub>i</sub> &cap; E<sub>j</sub>, and the set differences E<sub>i</sub> &cap; E<sub>j</sub><sup>c</sup> and E<sub>i</sub><sup>c</sup> &cap; F<sub>j</sub> are also all in &#120021;.
+- The *field of sets*, or a **set-algebra**, indicates that if sets \\( E_{i} \\) and \\( E_{j} \\) are in \\( \mathcal{F} \\), then \\( E_{i} \cup E_{j} \\),  \\( E_{i} \cap E_{j} \\), and the set differences \\( E_{i} \cap E_{j}^{c} \\) and \\( E_{i}^{c} \cap E_{j} \\) are also all in \\( \mathcal{F} \\).
 - In other words, a set-algebra is **closed under the boolean operations complement, union, and intersection**.
 
 **Axioms 3 - 5**: These are the *key axioms that define probability*. These axioms (or variants thereof) are what you will typically see reported in textbooks and introductory statistics courses. Several useful collaries can be derived from them:
 
-- **Complement rule** - For any event A, P(A<sup>c</sup>) = 1 - P(A).
-- **Inclusion-Exclusion** - For two arbitrary events A and B, P( A &cup; B ) = P(A) + P(B) - P( A &cap; B).
+- **Complement rule** - For any event A, \\( P(A^{c}) = 1 - P(A) \\).
+- **Inclusion-Exclusion** - For two arbitrary events A and B, \\( P(A \cup B) = P(A) + P(B) - P( A \cap B) \\).
 
 **Axiom 6**: This axiom ensures the definition of probability works both for finite and continuous variables.
 
