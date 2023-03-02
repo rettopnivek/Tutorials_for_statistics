@@ -14,6 +14,8 @@ An **axiomatic definition of probability** (axioms are propositions to be taken 
 ### Table of contents
 1. <a href="#S01">The Kolmogorov axioms</a>
 2. <a href="#S02">Current axiomatic foundations</a>
+3. <a href="#S03">Calculus of probabilities</a>
+4. <a href="#S05">Interpreting probabilities</a>
 
 <a href="#END">&#129147;</a>
 
@@ -73,12 +75,45 @@ $$
 
 ##### References:
 
-* Reference &rarr;
+* Casella, G., & Berger, R. L. (2002). *Statistical inference* (2nd ed.). Pacific Grove, CA: Thomson Learning. [&rarr;](https://www.books-by-isbn.com/0-534/0534243126-Statistical-Inference-George-Casella-Roger-L.-Berger-0-534-24312-6.html)
 
 <a href="#TOC">&#129145;</a> <a href="#END">&#129147;</a>
 
-<a name="S02"></a>
-#### 1. Section 2
+<a name="S03"></a>
+#### 3. Calculus of probabilities
+
+If \\( P \\) is a probability function and A is any set in \\( \mathcal{B} \\), then:
+
+* \\( P( \emptyset ) = 0. \\)
+* \\( P(A) \leq 1. \\)
+* \\( P(A^{c}) = 1 - P(A). \\)
+
+If \\( P \\) is a probability function and A and B are any sets in \\( \mathcal{B} \\), then:
+
+* \\( P(B \cap A^{c}) = P(B) - P(A \cap B). \\)
+* \\( P(A \cup \B) = P(A) + P(B) - P(A \cap B). \\)
+* If \\( A \subset B, \\) then \\( P(A) \leq P(B). \\)
+
+**Bonferonni's Inequality** provides a bound on a simultaneous event based on the probabilities of individual events:
+
+$$
+P(A \cap B) \geq P(A) + P(B) - 1.
+$$
+
+```R
+# Example R code
+```
+
+*Note: Advanced content.*
+
+##### References:
+
+* Reference &rarr;
+
+<a href="#TOC">&#129145;</a>
+
+<a name="S04"></a>
+#### 4. Interpreting probabilities
 
 Content.
 
